@@ -13,8 +13,8 @@ Saiba mais sobre o link:https://docs.netapp.com/us-en/console-well-architected/l
 
 O painel de controle bem estruturado do Console está disponível para os seguintes sistemas de storage:
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP no Microsoft Azure"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP no Microsoft Azure"]
 
 
 

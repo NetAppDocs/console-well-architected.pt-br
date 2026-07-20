@@ -1,8 +1,14 @@
-= 20 de julho de 2026
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+summary: Descubra as novidades do painel de controle bem estruturado no NetApp Console. 
+---
+= O que há de novo no painel Well-Architected no NetApp Console
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
-
-permalink: whats-new.html palavras-chave: novidades, recursos, novo, notas de versão, melhorias, correções, novos recursos, bem-arquitetado, painel bem-arquitetado, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap resumo: "Saiba o que há de novo no painel bem-arquitetado do NetApp Console." --- = Novidades no painel bem-arquitetado do NetApp Console :icons: font :imagesdir: ./media/
 
 [role="lead"]
 Descubra as novidades do componente Well-architected do Workload Factory.
@@ -25,8 +31,8 @@ Saiba mais sobre o link:https://docs.netapp.com/us-en/console-well-architected/l
 
 O painel de controle bem estruturado do Console está disponível para os seguintes sistemas de storage:
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP no Microsoft Azure"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP no Microsoft Azure"]
 
 
 
