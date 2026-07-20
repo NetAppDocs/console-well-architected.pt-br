@@ -1,0 +1,122 @@
+---
+sidebar: sidebar 
+permalink: manage-custom-rules.html 
+keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
+summary: Visualize, ative, desative e exclua regras arquitetônicas personalizadas do catálogo de regras. 
+---
+= Gerenciar regras personalizadas
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+O catálogo de regras é um local centralizado para gerenciar todas as suas regras personalizadas. Você pode visualizar os detalhes de cada regra, verificar seus resultados e ativá-la ou desativá-la.
+
+
+
+[[view-the-rules-catalog]]
+== Veja o catálogo de regras
+
+O catálogo de regras mostra todas as regras que você criou, o status delas, o agendamento e os resultados mais recentes.
+
+.Passos
+. Faça login usando um dos link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["experiências de console"^].
+. Selecione o menu image:workloads-menu-icon.png["O ícone do menu hambúrguer"] e, em seguida, selecione *Rule builder*.
+. Clique em *Ver suas regras* para abrir o catálogo de regras.
+
+
+
+
+[[view-rule-results]]
+== Ver resultados da regra
+
+Os resultados mostram quais recursos seguem sua regra e quais não.
+
+.Passos
+. No catálogo de regras, clique na regra que você deseja revisar.
+. Selecione a guia *Resultados de todas as execuções*.
+. Selecione **Ver detalhes** para ver os resultados de cada execução.
+
+
+Se a verificação falhar para alguns itens, leia a mensagem de erro para entender o motivo. As razões mais comuns são problemas de conexão, permissões ausentes ou um Link/Connector que não foi configurado.
+
+
+
+[[pause-a-rule]]
+== Pausar uma regra
+
+Pause uma regra para interromper as avaliações sem excluir a regra. As regras pausadas permanecem no catálogo e podem ser reiniciadas a qualquer momento.
+
+.Passos
+. No catálogo de regras, clique na regra que você deseja pausar.
+. Faça um dos seguintes procedimentos:
++
+** Para pausar uma regra agendada, clique em *Pausar* e confirme. A regra para de ser executada conforme o agendamento.
+** Para retomar uma regra pausada, clique em *Retomar* e confirme. A regra retoma as avaliações regulares.
+
+
+
+
+
+
+[[delete-a-custom-rule]]
+== Excluir uma regra personalizada
+
+Exclua uma regra permanentemente quando não precisar mais dela. Essa ação não pode ser desfeita.
+
+.Passos
+. No catálogo de regras, clique na regra que você deseja excluir.
+. Clique em *Delete*.
+. Confirme que você deseja excluir a regra permanentemente.
+
+
+.Resultado
+A regra foi removida do catálogo. Todo o histórico de avaliações foi apagado.
+
+
+
+[[run-a-quick-test]]
+== Faça um teste rápido
+
+Execute um teste rápido a qualquer momento para verificar a conformidade atual sem precisar esperar pela próxima execução agendada.
+
+.Passos
+. No catálogo de regras, clique na regra que você deseja avaliar.
+. Clique em *Validar*.
++
+O sistema avalia todos os recursos em escopo com base na lógica da regra.
+
+. Analise os resultados para verificar o status atual de conformidade.
+
+
+Os testes são auditados e constam no histórico de avaliação da regra.
+
+
+
+[[understand-execution-status]]
+== Entenda o status de execução
+
+O status de execução mostra se uma regra foi executada com sucesso.
+
+Bem-sucedido:: Todos os recursos relevantes foram verificados e nenhum erro foi encontrado.
+Parcialmente bem-sucedido:: Alguns recursos foram verificados com sucesso, mas outros falharam. Verifique os detalhes do erro para aqueles que não puderam ser verificados.
+Falha:: A avaliação não foi concluída. As causas comuns incluem erros de credencial da AWS, problemas de conexão de rede ou problemas de permissão do ONTAP.
+
+
+Se uma regra continuar falhando ou tiver sucesso apenas parcialmente, verifique se:
+
+* As credenciais da AWS têm acesso somente leitura a todos os recursos.
+* O link e o conector estão configurados para todos os sistemas de arquivos em escopo.
+* O usuário visualizador do FSx for ONTAP possui as permissões adequadas.
+
+
+
+
+[[what-to-do-next]]
+== O que fazer a seguir
+
+link:learn-custom-rules.html["Saiba mais sobre regras personalizadas"]

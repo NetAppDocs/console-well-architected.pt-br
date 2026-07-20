@@ -1,0 +1,48 @@
+---
+indexpage:
+  title: Painel de controle bem arquitetado no NetApp Console
+  summary: NetApp Console ajuda você a manter e operar configurações confiáveis, seguras,
+    eficientes e econômicas, que estejam alinhadas com as estruturas bem arquitetadas
+    para o tipo de armazenamento que você utiliza.
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: NetApp Console ajuda você a manter configurações de armazenamento confiáveis,
+    seguras, eficientes e econômicas, alinhadas à estrutura bem arquitetada do seu
+    tipo de armazenamento. O painel de controle bem arquitetado oferece uma visão
+    unificada de todas as contas e regiões, ajuda as equipes a identificar e priorizar
+    riscos e oferece suporte a regras personalizadas para requisitos específicos.
+  tiles:
+  - title: Comece agora
+    links:
+    - title: Notas de lançamento
+      url: "/whats-new.html"
+    - title: Saiba mais sobre o painel de controle bem projetado
+      url: "/learn-well-architected-dashboard.html"
+  - title: Produtos suportados
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: Crie suas próprias regras
+    links:
+    - title: Saiba mais sobre regras personalizadas
+      url: "/learn-custom-rules.html"
+    - title: Crie uma regra personalizada
+      url: "/create-custom-rule.html"
+    - title: Gerenciar regras personalizadas
+      url: "/manage-custom-rules.html"
+  - title: Conhecimento e suporte
+    links:
+    - title: Cadastre-se para receber suporte
+      url: "/register-support.html"
+    - title: Obtenha ajuda
+      url: "/get-help.html"
+  - title: Blogs e comunidade
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: Comunidade NetApp
+      url: https://community.netapp.com/

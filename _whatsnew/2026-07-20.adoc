@@ -1,0 +1,27 @@
+= Apresentando o painel bem arquitetado no NetApp Console
+:allow-uri-read: 
+
+
+
+
+[[introducing-the-well-architected-dashboard-in-netapp-console]]
+=== Apresentando o painel bem arquitetado no NetApp Console
+
+O painel de controle bem-arquitetado no NetApp Console oferece uma visão unificada dos seus sistemas de storage e configurações em todas as contas e regiões. O painel fornece insights e recomendações para ajudar você a alcançar excelência operacional. Você pode visualizar o status bem-arquitetado das suas configurações, problemas de configuração organizados pelos pilares da estrutura bem-arquitetada para o tipo de storage que você usa e uma lista de problemas de configuração e recomendações.
+
+Saiba mais sobre o link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard bem arquitetado"].
+
+O painel de controle bem estruturado do Console está disponível para os seguintes sistemas de storage:
+
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP no Microsoft Azure"]
+
+
+
+
+[[build-your-own-custom-rules]]
+=== Crie suas próprias regras personalizadas
+
+Escreva regras personalizadas em linguagem simples para garantir que seus sistemas sigam os padrões da sua organização e as melhores práticas da NetApp. Teste as regras com uma simulação e, em seguida, agende a execução delas em todos os seus ambientes.
+
+https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Saiba mais sobre regras personalizadas"^]
