@@ -110,4 +110,4 @@ Habilite o armazenamento em camadas de dados inativos para mover dados inativos 
 
 
 .O que vem a seguir
-link:cvo/improve-configurations-cvo.html["Implemente configurações de sistema Cloud Volumes ONTAP bem arquitetadas"]
+link:improve-configurations-cvo.html["Implemente configurações de sistema Cloud Volumes ONTAP bem arquitetadas"]

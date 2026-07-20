@@ -125,7 +125,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">Habilite o armazenamento em camadas de dados inativos para mover dados inativos da camada de armazenamento SSD para um armazenamento de menor custo. Azure Blob Storage serve como camada de capacidade para dados inativos.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">O que vem a seguir</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">Implemente configurações de sistema Cloud Volumes ONTAP bem arquitetadas</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">O Workload Factory analisa as configurações do Cloud Volumes ONTAP, fornecendo insights e recomendações para ajudar você a alcançar excelência operacional.</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">Usando insights e recomendações da análise de configuração, aproveite a NetApp para implementar as melhores práticas para seus sistemas Cloud Volumes ONTAP executados no armazenamento Microsoft Azure. Você pode revisar facilmente o status bem arquitetado, conhecer os problemas das suas configurações e obter recomendações para melhorar a arquitetura de quaisquer sistemas que não estejam otimizados para confiabilidade, segurança, eficiência, desempenho e custo.</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">Saiba mais sobre a análise de configuração e o status de arquitetura bem projetada.</block>
@@ -199,7 +198,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*Volumes NAS inativos*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">A análise de configuração identifica volumes NAS que não estão sendo usados ativamente e recomenda a exclusão ou arquivamento desses volumes para reduzir custos.</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">Implemente configurações de sistema de arquivos FSx for ONTAP bem arquitetadas</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">conceder permissões de _operações e remediação_</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">Você deve <block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block> na sua conta da AWS.</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">Conecte-se a um sistema de arquivos FSx for ONTAP usando um link</block>
@@ -573,4 +571,6 @@
   <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">No painel de controle Well-architected, selecione "Configurações descartadas".</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">Descubra as novidades do painel de controle bem estruturado no NetApp Console.</block>
   <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">O que há de novo no painel Well-Architected no NetApp Console</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>
