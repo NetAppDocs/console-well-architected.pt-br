@@ -1,16 +1,16 @@
 ---
 indexpage:
   title: Painel de controle bem arquitetado no NetApp Console
-  summary: NetApp Console ajuda você a manter e operar configurações confiáveis, seguras,
-    eficientes e econômicas, que estejam alinhadas com as estruturas bem arquitetadas
-    para o tipo de armazenamento que você utiliza.
+  summary: O painel de controle bem arquitetado no NetApp Console ajuda você a manter
+    e operar configurações confiáveis, seguras, eficientes e econômicas que estejam
+    alinhadas com as estruturas bem arquitetadas para o tipo de storage que você utiliza.
   keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
     framework, NetApp Console
-  lead: NetApp Console ajuda você a manter configurações de armazenamento confiáveis,
-    seguras, eficientes e econômicas, alinhadas à estrutura bem arquitetada do seu
-    tipo de armazenamento. O painel de controle bem arquitetado oferece uma visão
-    unificada de todas as contas e regiões, ajuda as equipes a identificar e priorizar
-    riscos e oferece suporte a regras personalizadas para requisitos específicos.
+  lead: O painel de controle bem arquitetado no NetApp Console ajuda você a manter
+    configurações de storage confiáveis, seguras, eficientes e econômicas, alinhadas
+    à estrutura bem arquitetada do seu tipo de storage. O painel de controle bem arquitetado
+    oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar
+    e priorizar riscos e oferece suporte a regras personalizadas para requisitos específicos.
   tiles:
   - title: Comece agora
     links:

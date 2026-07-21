@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/improve-configurations-cvo.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
-summary: O Workload Factory analisa as configurações do Cloud Volumes ONTAP, fornecendo insights e recomendações para ajudar você a alcançar excelência operacional. 
+summary: O painel de controle bem estruturado analisa as configurações do Cloud Volumes ONTAP, fornecendo insights e recomendações para ajudar você a alcançar excelência operacional. 
 ---
 = Implemente configurações de sistema Cloud Volumes ONTAP bem arquitetadas
 :allow-uri-read: 
@@ -20,11 +20,11 @@ link:configuration-analysis-cvo.html["Saiba mais sobre a análise de configuraç
 [[about-this-task]]
 == Sobre esta tarefa
 
-NetApp analisa diariamente as implementações do sistema Cloud Volumes ONTAP no Microsoft Azure. A análise diária fornece o status de arquitetura adequada, além de insights e recomendações para ajudar você a corrigir problemas de configuração para que seus sistemas atendam às melhores práticas.
+O painel de controle bem estruturado analisa diariamente as configurações de implantação do sistema Cloud Volumes ONTAP no Microsoft Azure. A análise diária fornece o status bem estruturado, insights e recomendações.
 
-Você pode visualizar as recomendações para problemas de configuração em seus sistemas sem implantar um agente de Console; no entanto, a conectividade com o agente de Console permite que a NetApp forneça a análise mais abrangente dos recursos do seu sistema.
+A conectividade do agente Link ou Console permite que o painel bem arquitetado no NetApp Console realize uma varredura completa dos seus sistemas Cloud Volumes ONTAP em busca de problemas de desempenho, proteção de dados e configurações. Isso garante que você receba informações e recomendações precisas para otimizar seus sistemas Cloud Volumes ONTAP.
 
-Após a conclusão da análise diária, o painel exibe o número total de recursos bem arquitetados, o número de recursos em estado crítico e o número de recursos em estado de alerta. As configurações são categorizadas pelos pilares da estrutura bem arquitetada: confiabilidade, excelência operacional, otimização de custos, eficiência de desempenho e segurança. O painel também inclui uma tabela que lista todas as configurações, o status bem arquitetado dessas configurações, a gravidade, a categoria, o tipo de recurso (volume ou sistema), os recursos impactados e a opção de visualizar a recomendação quando a configuração não estiver otimizada.
+Os requisitos de configuração de armazenamento variam. Você pode ignorar a análise de configurações específicas que não se aplicam ao seu ambiente de storage. Isso ajuda você a evitar alertas desnecessários e resultados de otimização imprecisos.
 
 
 

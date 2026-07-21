@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/configuration-analysis-cvo.html 
 keywords: Cloud Volumes ONTAP, configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
-summary: NetApp Console analisa diariamente as configurações do sistema de storage para determinar se existem problemas de configuração. 
+summary: O painel de controle bem estruturado no NetApp Console analisa diariamente as configurações do sistema Cloud Volumes ONTAP para determinar se há algum problema de configuração. 
 ---
 = Análise de configuração para Cloud Volumes ONTAP
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp Console analisa diariamente as configurações do sistema de sto
 
 
 [role="lead"]
-NetApp Console analisa regularmente as configurações do sistema de storage para determinar se há algum problema de configuração. Quando problemas são encontrados, o Console mostra quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.
+O painel bem arquitetado no NetApp Console analisa regularmente as configurações do sistema de storage para determinar se há algum problema de configuração nos seus sistemas Cloud Volumes ONTAP. Quando problemas são encontrados, o painel mostra para você quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.
 
 Principais funcionalidades incluem:
 
@@ -26,14 +26,14 @@ Principais funcionalidades incluem:
 [[analysis-requirements]]
 == Requisitos de análise
 
-Para uma análise completa do sistema Cloud Volumes ONTAP, você deve link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["implantar um agente do NetApp Console"^]. A conectividade do agente do Console permite que o Console analise todas as configurações do sistema Cloud Volumes ONTAP, como proteção de dados e desempenho.
+Para uma análise completa do sistema Cloud Volumes ONTAP, você precisa link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["implantar um agente do NetApp Console"^] configurar a conectividade entre seus sistemas e o NetApp Console.
 
 
 
 [[best-practices-and-recommendations-for-cloud-volumes-ontap-systems]]
 == Melhores práticas e recomendações para sistemas Cloud Volumes ONTAP
 
-NetApp avalia as configurações de armazenamento para fornecer uma visão detalhada das melhores práticas de configuração do ONTAP e para garantir a conformidade com o Azure Well-Architected Framework. A avaliação também recomenda melhorias e correções.
+O painel de controle de arquitetura bem projetada avalia as configurações de armazenamento para fornecer uma visão detalhada das melhores práticas de configuração do ONTAP e da conformidade com o Azure Well-Architected Framework. A avaliação também recomenda melhorias e correções.
 
 A análise bem arquitetada categoriza as configurações nos seguintes pilares da estrutura: _confiabilidade_, _segurança_, _excelência operacional_, _otimização de custos_ e _eficiência de desempenho_.
 
@@ -42,7 +42,7 @@ A análise bem arquitetada categoriza as configurações nos seguintes pilares d
 [[reliability]]
 === Confiabilidade
 
-A confiabilidade garante que as workloads executem suas funções pretendidas de forma correta e consistente, mesmo quando ocorrem interrupções.
+A confiabilidade garante que as cargas de trabalho executem suas funções pretendidas de forma correta e consistente, mesmo durante interrupções.
 
 * *Agendar snapshots locais*
 +
@@ -50,7 +50,7 @@ Agende snapshots locais para backup eficiente e restaurações rápidas. Snapsho
 
 * *Limite de capacidade do SSD*
 +
-A capacidade da camada de armazenamento SSD não deve exceder 80% de utilização de forma contínua. Ultrapassar esse limite pode degradar a taxa de transferência e fazer com que os volumes de dados se tornem somente leitura, causando falhas nas operações de gravação.
+A capacidade da camada de armazenamento SSD não deve exceder 80% de utilização de forma contínua. Ultrapassar esse limite pode degradar a taxa de transferência, tornar os volumes de dados somente leitura e causar falhas nas operações de gravação.
 
 
 
@@ -101,7 +101,7 @@ A otimização de custos ajuda você a obter o máximo valor para o seu negócio
 
 * *Identifique a capacidade subutilizada dos SSDs*
 +
-Uma camada de capacidade SSD subutilizada pode estar gerando custos desnecessários. NetApp recomenda reduzir a capacidade da camada SSD, mantendo um buffer de 20% de espaço livre acima da capacidade atualmente utilizada. Uma operação de redução pode levar de várias horas a vários dias, e o sistema não suporta outras operações do sistema de arquivos durante esse período.
+Uma camada de capacidade SSD subutilizada pode gerar custos desnecessários. NetApp recomenda reduzir a capacidade da camada SSD, mantendo um buffer de espaço livre de 20% acima da capacidade atualmente utilizada. Uma operação de redução leva de várias horas a vários dias, e outras operações do sistema não são suportadas durante esse período.
 
 * *Política de hierarquização de dados*
 +

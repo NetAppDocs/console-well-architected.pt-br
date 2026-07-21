@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: learn-well-architected-dashboard.html 
 keywords: well-architected, best practices, well-architected system, best practices, well-architected framework, well-architected configurations, system management, system optimization, system configuration, system analysis 
-summary: NetApp Console analisa as configurações do sistema em busca de confiabilidade, segurança, excelência operacional, otimização de custos e eficiência de desempenho, fornecendo insights e recomendações para ajudar você a alcançar excelência operacional. 
+summary: O painel de controle bem estruturado no NetApp Console analisa as configurações do sistema em busca de confiabilidade, segurança, excelência operacional, otimização de custos e eficiência de desempenho, fornecendo insights e recomendações para ajudar você a alcançar excelência operacional. 
 ---
 = Saiba mais sobre o painel de controle bem estruturado no NetApp Console
 :allow-uri-read: 
@@ -11,32 +11,32 @@ summary: NetApp Console analisa as configurações do sistema em busca de confia
 
 
 [role="lead"]
-NetApp Console ajuda você a manter e operar configurações confiáveis, seguras, eficientes e econômicas, alinhadas com as estruturas bem arquitetadas para o tipo de armazenamento que você utiliza. O painel bem arquitetado oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar e priorizar riscos e suporta regras personalizadas para requisitos específicos. Verificações automáticas diárias das configurações do seu sistema de storage fornecem insights e recomendações para ajudar você a otimizar seus ambientes de armazenamento.
+O painel de controle bem arquitetado no NetApp Console ajuda você a manter e operar configurações confiáveis, seguras, eficientes e econômicas que estão alinhadas com as estruturas bem arquitetadas para o tipo de storage que você utiliza. O painel oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar e priorizar riscos e suporta regras personalizadas para requisitos específicos. Verificações automáticas diárias das configurações do seu sistema de storage fornecem insights e recomendações para ajudar você a otimizar seus ambientes de storage.
 
 
 
 [[how-it-works]]
 == Como funciona
 
-NetApp Console analisa suas configurações diariamente. A análise fornece status bem arquitetado, insights e recomendações.
+O painel de controle bem arquitetado analisa suas configurações diariamente. A análise fornece o status bem arquitetado, insights e recomendações.
 
-Após a conclusão da análise diária, as configurações aparecem como "otimizadas" ou "não otimizadas" no painel de controle bem arquitetado da implantação. Você encontrará a pontuação total de otimização, problemas de configuração por categoria e uma lista de problemas de configuração e recomendações. Você pode revisar as recomendações para problemas de configuração. Alguns problemas podem ser corrigidos automaticamente pelo NetApp Console, enquanto outros exigem intervenção manual. Nesse caso, o NetApp Console fornece instruções detalhadas para ajudar você a implementar as alterações recomendadas.
+Após a conclusão da análise diária, as configurações aparecem como "otimizadas" ou "não otimizadas" no painel de controle do well-architected. Você encontrará a pontuação total de otimização, problemas de configuração por categoria e uma lista de problemas de configuração e recomendações. Você pode revisar as recomendações para problemas de configuração. Alguns problemas podem ser corrigidos automaticamente pelo painel de controle do well-architected, enquanto outros exigem intervenção manual. Nesse caso, o painel de controle do well-architected fornece instruções detalhadas para ajudar você a implementar as alterações recomendadas.
 
-Você pode descartar a análise de configurações que não se aplicam aos seus ambientes. Isso evita alertas desnecessários e resultados de otimização imprecisos. Ao descartar uma análise de configuração específica, NetApp Console não inclui a configuração na pontuação total de otimização.
+Você pode descartar a análise de configurações que não se aplicam aos seus ambientes. Isso evita alertas desnecessários e resultados de otimização imprecisos. Ao descartar uma análise de configuração específica, o painel well-architected não inclui a configuração na pontuação total de otimização.
 
 
 
 [[why-it-matters]]
 == Por que isso importa
 
-NetApp Console aplica as melhores práticas a grandes ambientes de storage, banco de dados e VMware, combinando avaliação contínua com insights de recomendações e remediação. As correções automatizadas aplicadas no NetApp Console reduzem erros humanos, garantem gerenciamento uniforme e preservam o desempenho e a confiabilidade em toda a sua infraestrutura de sistemas.
+O painel de controle bem projetado no NetApp Console aplica as melhores práticas a grandes ambientes de storage, banco de dados e VMware, combinando avaliação contínua com insights de recomendações e remediação. A remediação automatizada aplicada no painel de controle bem projetado reduz erros humanos, garante gerenciamento uniforme e preserva o desempenho e a confiabilidade em toda a sua infraestrutura de sistemas.
 
 
 
 [[supported-storage-systems]]
 == Sistemas de storage suportados
 
-Os seguintes sistemas de storage são suportados no painel bem arquitetado do Console:
+O painel de controle bem estruturado do Console oferece suporte aos seguintes sistemas de storage:
 
 * Amazon FSx for NetApp ONTAP
 * Cloud Volumes ONTAP no Microsoft Azure

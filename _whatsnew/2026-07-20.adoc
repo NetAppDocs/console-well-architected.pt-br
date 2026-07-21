@@ -24,4 +24,4 @@ O painel de controle bem estruturado do Console está disponível para os seguin
 
 Escreva regras personalizadas em linguagem simples para garantir que seus sistemas sigam os padrões da sua organização e as melhores práticas da NetApp. Teste as regras com uma simulação e, em seguida, agende a execução delas em todos os seus ambientes.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Saiba mais sobre regras personalizadas"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Saiba mais sobre regras personalizadas"]
