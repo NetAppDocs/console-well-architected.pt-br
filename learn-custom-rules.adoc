@@ -26,6 +26,9 @@ O Construtor de Regras permite que você crie regras personalizadas de boas prá
 Regras personalizadas ajudam você a aplicar os padrões, limites de risco e requisitos operacionais da sua organização, aspectos que as regras genéricas do fornecedor podem não abranger completamente.
 
 
+NOTE: Se o administrador da sua conta desativou os recursos de IA, o Construtor de Regras não estará disponível e você não poderá criar regras personalizadas. link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Saiba mais sobre como gerenciar recursos de IA"^].
+
+
 
 [[how-custom-rules-work]]
 == Como funcionam as regras personalizadas

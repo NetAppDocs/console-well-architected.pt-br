@@ -94,27 +94,17 @@
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">A análise bem arquitetada categoriza as configurações nos seguintes pilares da estrutura: _confiabilidade_, _segurança_, _excelência operacional_, _otimização de custos_ e _eficiência de desempenho_.</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">Confiabilidade</block>
   <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">A confiabilidade garante que as workloads executem suas funções pretendidas de forma correta e consistente, mesmo quando ocorrem interrupções.</block>
-  <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*Agendar snapshots locais*</block>
   <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">Agende snapshots locais para backup eficiente e restaurações rápidas. Snapshots são imagens instantâneas, ponto no tempo, dos seus volumes.</block>
-  <block id="eb995e3e26a9ce43e4cb513af9782398" category="list-text">*Limite de capacidade do SSD*</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">Segurança</block>
   <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">A segurança enfatiza proteger dados, sistemas e ativos por meio de avaliações de risco e estratégias de mitigação.</block>
   <block id="d08117d717007eeb4d6273695d9a7725" category="list-text">*Proteção autônoma contra ransomware com IA (ARP/AI)*</block>
   <block id="167fce45da752e074139dbfd85f1d96d" category="paragraph">NetApp Autonomous Ransomware Protection com IA (ARP/AI) ajuda a aprimorar a resiliência cibernética e a proteger seus volumes contra ameaças de ransomware. Recomendamos habilitar o ARP/AI para todos os volumes.</block>
   <block id="17d2a91a4f3c01de4c2f05b2242e49d3" category="section-title">Excelência operacional</block>
   <block id="84c2d06d655e822b38b222df9c0aa965" category="paragraph">A excelência operacional concentra-se em fornecer a melhor arquitetura e o melhor valor para o negócio.</block>
-  <block id="32438b829cdc61174e9727896ad00733" category="list-text">*Limite de utilização da capacidade de volume*</block>
-  <block id="e973d533a0ae133a86d3a32d9c71df3f" category="paragraph">NetApp recomenda que a capacidade do volume não exceda 80% de utilização de forma contínua. Isso pode afetar as operações de leitura e gravação de dados no seu aplicativo. O aumento da capacidade do volume pode ser manual ou automático, utilizando o recurso volume com crescimento automático.</block>
-  <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*Modo de gravação de relacionamento em cache*</block>
-  <block id="172f50b41b5736d316b29512e1c1cc01" category="list-text">*Tamanho do volume de cache do ONTAP*</block>
-  <block id="c9eaece9ad2e9f2b182ab193795510eb" category="paragraph">NetApp recomenda ativar o dimensionamento automático de volume e a limpeza em volumes de cache para manter o tamanho ideal e concentrar o cache nos dados acessados com frequência (quentes) para obter eficiência máxima.</block>
   <block id="7f14df7d96b168d75780c47437a63021" category="list-text">*Conformidade da versão do ONTAP*</block>
   <block id="3bbb5a399ebdfb8d2d4a8a5c7bafb3fb" category="paragraph">Atualize para a versão mais recente do ONTAP para obter total compatibilidade, suporte e acesso a novos recursos.</block>
   <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">Otimização de custos</block>
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">A otimização de custos ajuda você a obter o máximo valor para o seu negócio enquanto mantém os custos baixos.</block>
-  <block id="7a9a8f4f357fd479616721650f578eab" category="list-text">*Identifique a capacidade subutilizada dos SSDs*</block>
-  <block id="d8789f9e1c2f22ea67573de6c6a2a782" category="list-text">*Política de hierarquização de dados*</block>
-  <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">Habilite o armazenamento em camadas de dados inativos para mover dados inativos da camada de armazenamento SSD para um armazenamento de menor custo. Azure Blob Storage serve como camada de capacidade para dados inativos.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">O que vem a seguir</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">Implemente configurações de sistema Cloud Volumes ONTAP bem arquitetadas</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">Usando insights e recomendações da análise de configuração, aproveite a NetApp para implementar as melhores práticas para seus sistemas Cloud Volumes ONTAP executados no armazenamento Microsoft Azure. Você pode revisar facilmente o status bem arquitetado, conhecer os problemas das suas configurações e obter recomendações para melhorar a arquitetura de quaisquer sistemas que não estejam otimizados para confiabilidade, segurança, eficiência, desempenho e custo.</block>
@@ -133,7 +123,6 @@
   <block id="a986c1177dbf821528da387099394568" category="inline-image-macro">Uma captura de tela do ícone de download</block>
   <block id="12fb11593709031df8791d4256219091" category="paragraph">Opcionalmente, selecione <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block>para baixar um arquivo CSV com as recomendações para todas as configurações.</block>
   <block id="a1a31d23ff3b3c49f603bdfad41624a7" category="list-text">Analise a recomendação.</block>
-  <block id="8f6fc7ab8dca3a508e79c4cddacfe4a7" category="paragraph">Corrija problemas de configuração para manter seus sistemas funcionando com desempenho ideal.</block>
   <block id="56f8181fa25efca14808cd61ff615728" category="doc">Análise de configuração para Amazon FSx for NetApp ONTAP</block>
   <block id="ccfc2060f8f316d0ccd33b0289111a38" category="paragraph">Para uma análise completa do sistema de arquivos, você deve fazer o seguinte:</block>
   <block id="8c696f376388c7710b3ca416a2bc8c23" category="inline-link-macro">Implantar um agente do NetApp Console</block>
@@ -142,35 +131,18 @@
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">Aprenda como conceder permissões a uma conta da AWS</block>
   <block id="582f3532371a870cf4bd6406f93d26de" category="paragraph"><block ref="582f3532371a870cf4bd6406f93d26de" category="inline-link-macro-rx"></block></block>
   <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">Melhores práticas e recomendações para cargas de trabalho de storage</block>
-  <block id="8994ec75ad87cef8edf4cf8eae6b4e4c" category="list-text">*Agendar backups de volume*</block>
   <block id="3bacc0d1986b203b432f61110667b3d7" category="paragraph">Fazer backup dos seus volumes ajuda a atender às necessidades de retenção de dados e conformidade. Use backups de volume para configurar backups automatizados e retenção para seus dados.</block>
   <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">*Replicação entre regiões*</block>
-  <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*Configurar replicação de dados*</block>
-  <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*Aumentar o limite de capacidade do SSD*</block>
-  <block id="52dcb980883fc7c1570f6f9c4c6e4f47" category="list-text">*Corresponda os rótulos para garantir a confiabilidade dos dados*</block>
   <block id="6b684c41f8808f2d21748ed56ee909d7" category="paragraph">Os rótulos da política de snapshot do volume de origem e os rótulos da política de replicação devem corresponder para garantir a confiabilidade dos dados.</block>
-  <block id="ec75a1c7b766068775fc7894ddaf83e4" category="list-text">*Aumentar o limite de capacidade de arquivos*</block>
-  <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*Habilitar ARP/AI*</block>
   <block id="3c93b584a7552b941c7752fec865d7f1" category="paragraph">NetApp Autonomous Ransomware Protection com IA (ARP/AI) ajuda a proteger seus volumes contra ameaças de ransomware. Workload Factory recomenda habilitar ARP/AI para todos os volumes.</block>
-  <block id="1218a704bef91508c259c867ba832d76" category="list-text">*Acesso não autorizado a volumes*</block>
   <block id="5f11ab37407484ede3169d7e37c9e28b" category="paragraph">Volumes que servem dados de aplicativos usando iSCSI não devem permitir acesso NAS simultaneamente. A Workload Factory recomenda restringir volumes iSCSI de usarem qualquer outro protocolo.</block>
   <block id="aae272278ce139a51849ab88adc7d597" category="paragraph">A excelência operacional concentra-se em fornecer a arquitetura mais ideal e valor comercial.</block>
-  <block id="2e8c868875c81824742ded82e0ff9518" category="list-text">*Ativar gerenciamento de capacidade automático*</block>
   <block id="c2af0d35add26707ebd7d7030d750beb" category="paragraph">O gerenciamento de capacidade automático deve ser ativado para garantir regularmente que a camada SSD não exceda o limite.</block>
-  <block id="900f4b8178b38a2b7075005f38bd4a08" category="list-text">*Utilização do volume quase cheia*</block>
-  <block id="1771306e58ae20ceab27a04d0b17adcd" category="paragraph">Quando um volume estiver próximo da capacidade máxima, Workload Factory recomenda tomar medidas para aumentar a capacidade do volume e evitar possíveis interrupções nos aplicativos.</block>
   <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">Para um desempenho ideal, Workload Factory recomenda o modo de gravação de relacionamento de cache que melhor se adapta à sua carga de trabalho. O modo write-around oferece melhor desempenho para cargas de trabalho com muitas leituras e arquivos pequenos, enquanto o modo write-back oferece melhor desempenho para cargas de trabalho com muitas gravações e arquivos grandes.</block>
-  <block id="3a3b30a3337caa5b953626eb873e3e6b" category="list-text">*Otimizar o tamanho do volume de cache*</block>
   <block id="3f8b3943fba700ffad94c47ef4638509" category="paragraph">A NetApp Workload Factory recomenda ativar o dimensionamento automático e a limpeza em volumes de cache para manter o tamanho ideal e concentrar o cache nos dados mais acessados, visando eficiência máxima.</block>
-  <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*Relatórios lógicos de Storage VM*</block>
-  <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">A Workload Factory recomenda que a configuração de relatório padrão seja definida como lógica para uma VM de armazenamento, a fim de proporcionar melhor visibilidade do uso de armazenamento no nível do volume.</block>
-  <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*Otimize o TCO ao fazer tiering de dados frios*</block>
-  <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*Ative as eficiências de armazenamento*</block>
   <block id="a97dffed0cf7eab28dd24e64546425b8" category="paragraph">Habilite as eficiências de armazenamento — compactação, compressão e deduplicação — para otimizar a utilização do storage e reduzir o custo da camada SSD.</block>
-  <block id="fed8dca8f704b8520ccccb85704d4336" category="list-text">*Exclusão desnecessária de snapshots e backups*</block>
   <block id="c359614024935abd3712075452782fa3" category="list-text">*Dispositivos de bloco inativos*</block>
   <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">Após um dispositivo de bloco não ser usado por sete dias, a Workload Factory recomenda arquivar os dados do dispositivo de bloco ou excluir o dispositivo de bloco não utilizado para reduzir custos.</block>
-  <block id="f915580ac605b8302594b2e8b9e200c4" category="list-text">*Capacidade de SSD subutilizada*</block>
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*Volumes NAS inativos*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">A análise de configuração identifica volumes NAS que não estão sendo usados ativamente e recomenda a exclusão ou arquivamento desses volumes para reduzir custos.</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">Implemente configurações de sistema de arquivos FSx for ONTAP bem arquitetadas</block>
@@ -393,7 +365,6 @@
   <block id="9e2e4a6d40890d391147ee63c83e4ebf" category="list-text">No catálogo de regras, clique na regra que você deseja revisar.</block>
   <block id="2d6751ce25ede21d2492997ddca98b45" category="list-text">Selecione a guia *Resultados de todas as execuções*.</block>
   <block id="f4e2484ce7f636995f87d4460bb472cf" category="list-text">Selecione **Ver detalhes** para ver os resultados de cada execução.</block>
-  <block id="1e1d7fe345b85c5ca8f56429f339869c" category="paragraph">Se a verificação falhar para alguns itens, leia a mensagem de erro para entender o motivo. As razões mais comuns são problemas de conexão, permissões ausentes ou um Link/Connector que não foi configurado.</block>
   <block id="8c5fb02c595607ff2d6a7bffe64be464" category="section-title">Pausar uma regra</block>
   <block id="ad91e5fff3b8c62296713afbb3628a85" category="paragraph">Pause uma regra para interromper as avaliações sem excluir a regra. As regras pausadas permanecem no catálogo e podem ser reiniciadas a qualquer momento.</block>
   <block id="6128c344ce68ca2256885ace5b47ff93" category="list-text">No catálogo de regras, clique na regra que você deseja pausar.</block>
@@ -422,7 +393,6 @@
   <block id="729ff93b396b672d12011be075fa41c4" category="list-text">A avaliação não foi concluída. As causas comuns incluem erros de credencial da AWS, problemas de conexão de rede ou problemas de permissão do ONTAP.</block>
   <block id="78c94c654440e39e298ee7b003ea0c22" category="paragraph">Se uma regra continuar falhando ou tiver sucesso apenas parcialmente, verifique se:</block>
   <block id="aa6ee29156e1ff679f21f8af41a72ab7" category="list-text">As credenciais da AWS têm acesso somente leitura a todos os recursos.</block>
-  <block id="82ffeaea6f26c09775db3df15338abf4" category="list-text">O link e o conector estão configurados para todos os sistemas de arquivos em escopo.</block>
   <block id="83391d1cdfce4d8cbed45dc698dedc6e" category="list-text">O usuário visualizador do FSx for ONTAP possui as permissões adequadas.</block>
   <block id="cc04bd1e4cca8a5b4e87672f588bf490" category="paragraph"><block ref="cc04bd1e4cca8a5b4e87672f588bf490" category="inline-link-macro-rx"></block></block>
   <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">Antes de abrir um chamado com o suporte técnico da NetApp, você precisa adicionar uma conta do site de suporte da NetApp ao NetApp Console e, em seguida, registrar-se para suporte.</block>
@@ -519,7 +489,6 @@
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> ou <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> para a análise mais completa dos recursos do seu sistema de arquivos.</block>
   <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">Certifique-se de revisar a recomendação cuidadosamente. A recomendação explica as melhores práticas e possíveis armadilhas de configurações não otimizadas.</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">Descubra as novidades do painel de controle bem estruturado no NetApp Console.</block>
-  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">O painel de controle bem estruturado no NetApp Console analisa diariamente as configurações do sistema Cloud Volumes ONTAP para determinar se há algum problema de configuração.</block>
@@ -527,9 +496,6 @@
   <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">Para uma análise completa do sistema Cloud Volumes ONTAP, você precisa <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> configurar a conectividade entre seus sistemas e o NetApp Console.</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">O painel de controle de arquitetura bem projetada avalia as configurações de armazenamento para fornecer uma visão detalhada das melhores práticas de configuração do ONTAP e da conformidade com o Azure Well-Architected Framework. A avaliação também recomenda melhorias e correções.</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">A confiabilidade garante que as cargas de trabalho executem suas funções pretendidas de forma correta e consistente, mesmo durante interrupções.</block>
-  <block id="5e4a737b303d3a3939eb4537aca01c87" category="paragraph">A capacidade da camada de armazenamento SSD não deve exceder 80% de utilização de forma contínua. Ultrapassar esse limite pode degradar a taxa de transferência, tornar os volumes de dados somente leitura e causar falhas nas operações de gravação.</block>
-  <block id="164f1fe3d78ea23dbd1a73e77dc30653" category="paragraph">Para um desempenho ideal, a NetApp recomenda o modo de gravação em cache que melhor se adapta à sua carga de trabalho. O modo write-around oferece melhor desempenho para cargas de trabalho com muitas leituras e arquivos pequenos, enquanto o modo write-back oferece melhor desempenho para cargas de trabalho com muitas gravações e arquivos grandes.</block>
-  <block id="88d49e924d44f746e9c3f5abf877e55e" category="paragraph">Uma camada de capacidade SSD subutilizada pode gerar custos desnecessários. NetApp recomenda reduzir a capacidade da camada SSD, mantendo um buffer de espaço livre de 20% acima da capacidade atualmente utilizada. Uma operação de redução leva de várias horas a vários dias, e outras operações do sistema não são suportadas durante esse período.</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">O painel de controle bem estruturado analisa as configurações do Cloud Volumes ONTAP, fornecendo insights e recomendações para ajudar você a alcançar excelência operacional.</block>
   <block id="d1ba3c7d12e9fa88a8e12a675029080d" category="paragraph">O painel de controle bem estruturado analisa diariamente as configurações de implantação do sistema Cloud Volumes ONTAP no Microsoft Azure. A análise diária fornece o status bem estruturado, insights e recomendações.</block>
   <block id="8939d3be821890ad665739df92be085d" category="paragraph">A conectividade do agente Link ou Console permite que o painel bem arquitetado no NetApp Console realize uma varredura completa dos seus sistemas Cloud Volumes ONTAP em busca de problemas de desempenho, proteção de dados e configurações. Isso garante que você receba informações e recomendações precisas para otimizar seus sistemas Cloud Volumes ONTAP.</block>
@@ -539,13 +505,9 @@
   <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> ou <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> para configurar a conectividade entre o sistema de arquivos e o NetApp Console.</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">O painel de arquitetura bem projetada avalia as configurações de storage em relação às melhores práticas do ONTAP e ao AWS Well-Architected Framework. A avaliação também recomenda melhorias e correções.</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">A replicação entre regiões garante que seus dados sejam replicados para outra região da AWS, proporcionando maior durabilidade e disponibilidade dos dados. Configure a replicação entre regiões para dar suporte à recuperação de desastres e conformidade.</block>
-  <block id="d66064a70712979bb0d8d042862a4bb8" category="paragraph">Para aumentar a confiabilidade dos dados, replique os dados para um sistema de arquivos FSx for ONTAP na mesma região ou em outra região. Configure a replicação de dados para oferecer suporte à migração, recuperação de desastres e retenção de longo prazo entre sistemas de arquivos.</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">A capacidade da camada de armazenamento SSD não deve exceder 80% de utilização. Isso pode afetar as operações de leitura e gravação de dados na camada de armazenamento do seu pool de capacidade e impactar a taxa de transferência do seu sistema de arquivos. Quando a capacidade se esgota, os volumes de dados tornam-se somente leitura. Os serviços que tentam gravar novos dados também falham.</block>
   <block id="9782f948325708f7c9a12b48ab18675e" category="paragraph">O limite de capacidade de arquivos deve ser aumentado para evitar atingir o limite de capacidade do volume. A baixa capacidade de arquivos (inodes) impede a gravação de dados adicionais no volume. A Workload Factory recomenda manter a utilização da capacidade de arquivos abaixo de 80% para permitir a criação de novos arquivos.</block>
   <block id="358a04c23a2e8b7a739dbfc478ae8427" category="paragraph">A Workload Factory recomenda que a capacidade do volume não exceda 80% de utilização. Isso pode afetar as operações de leitura e gravação de dados em seu aplicativo. O aumento da capacidade do volume pode ser manual ou automático, utilizando o recurso de volume com crescimento automático.</block>
-  <block id="92e1f2c8148081be697b1fcd43f3c042" category="paragraph">Habilite o armazenamento em camadas de dados frios para reduzir a utilização da camada de armazenamento SSD. Workload Factory recomenda aplicar uma política de armazenamento em camadas a cada volume. FSx for ONTAP verifica continuamente os dados em busca de dados frios e os move para a camada do pool de capacidade sem interrupção.</block>
-  <block id="88cf1998ed9b446c340be12e0a63b4bf" category="paragraph">Exclua snapshots e backups que não são mais necessários para reduzir custos.</block>
-  <block id="9fe3c6af0b209b829dedbd6205c7c514" category="paragraph">Uma camada de capacidade SSD subutilizada gera custos desnecessários. A Workload Factory recomenda reduzir a capacidade da camada SSD, mantendo um buffer de 20% de espaço livre. Uma operação de diminuição leva de várias horas a vários dias, e outras operações do sistema de arquivos não são suportadas durante esse período.</block>
   <block id="cdbdf3ae7b11d60e8f117000f407abdd" category="summary">O painel de controle bem estruturado analisa as configurações do Amazon FSx for NetApp ONTAP, fornecendo insights e recomendações para ajudar você a alcançar a excelência operacional.</block>
   <block id="994563f8c4fb5e35f528265f7b5eb386" category="paragraph">Utilizando insights e recomendações de análise de configuração, aproveite NetApp para implementar as melhores práticas em seus sistemas de arquivos FSx for ONTAP. Você pode facilmente revisar o status da arquitetura bem projetada, identificar problemas em suas configurações e tomar medidas para aprimorar a arquitetura de quaisquer sistemas que não estejam otimizados para confiabilidade, segurança, eficiência, desempenho e custo.</block>
   <block id="bca076b9764e88630a27e6313a438554" category="paragraph"><block ref="bca076b9764e88630a27e6313a438554" category="inline-link-macro-rx"></block></block>
@@ -565,4 +527,111 @@
   <block id="edd854bc8fa69e282718b3a59e15995a" category="doc">O que há de novo no painel bem arquitetado do NetApp Console</block>
   <block id="e934f48b300109b5939d0cbed21d591e" category="sidebar">O painel de controle bem arquitetado no NetApp Console ajuda você a manter configurações de storage confiáveis, seguras, eficientes e econômicas, alinhadas à estrutura bem arquitetada do seu tipo de storage. O painel de controle bem arquitetado oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar e priorizar riscos e oferece suporte a regras personalizadas para requisitos específicos.</block>
   <block id="bba0cbb6b2f0c8891673b3856f926b83" category="sidebar">O painel de controle bem arquitetado no NetApp Console ajuda você a manter e operar configurações confiáveis, seguras, eficientes e econômicas que estejam alinhadas com as estruturas bem arquitetadas para o tipo de storage que você utiliza.</block>
+  <block id="790f31a1565b039a710f1ff6cd60e24a" category="list-text">*Backups de volume*</block>
+  <block id="ca512a483bb26b1b253abc6b2cc463bd" category="list-text">*política do Snapshot*</block>
+  <block id="6c9fff12a469dffc950e974a95a7b4a4" category="paragraph">Agende snapshots locais para backup eficiente e restaurações rápidas. Snapshots são imagens instantâneas de ponto no tempo dos seus volumes. Esta recomendação não se aplica a ambientes de banco de dados.</block>
+  <block id="4e3fbfcdffe2becd73a5b796de048459" category="list-text">*Instantâneos consistentes com a aplicação*</block>
+  <block id="8f1e17436bf3a87fccd5f9e6d1ed851e" category="paragraph">Para ambientes de banco de dados, use snapshots consistentes com o aplicativo NetApp SnapCenter para criar snapshots precisos e confiáveis dos seus dados de volume em um momento específico. Isso mantém seus aplicativos funcionando sem problemas e seus dados seguros. SnapCenter facilita o backup e ajuda você a restaurar dados de forma rápida e correta, reduzindo o tempo de inatividade e protegendo suas cargas de trabalho mais importantes.</block>
+  <block id="e5cdf4f9c0dda596826a91093d4f69f4" category="list-text">*Espaço livre de capacidade de SSD*</block>
+  <block id="92c441b22ff16ef5515f94eb674b75dd" category="list-text">*Rótulos de política de replicação*</block>
+  <block id="4fa20133576020963cd240328e1cfe1e" category="list-text">*Capacidade de objeto de arquivo*</block>
+  <block id="dca1fa637808ac114bc3c64902363958" category="list-text">*Proteção contra ransomware (ARP/AI)*</block>
+  <block id="737910df50d01fa50997f65a5db71736" category="list-text">*Acesso não autorizado ao volume iSCSI*</block>
+  <block id="ac6bba07ba0bbbb40281e6088f214af7" category="list-text">*gerenciamento de capacidade automático*</block>
+  <block id="bca05dfe73df2536775bb543bb367fb6" category="list-text">*Folga de capacidade do volume*</block>
+  <block id="cb24245fc7fbb951739f0e037e8ed58f" category="list-text">*FlexCache modo de escrita*</block>
+  <block id="199b5a17e840b5e8165065942a5aba7f" category="list-text">*FlexCache tamanho da réplica*</block>
+  <block id="9df3c9bccd6a766926fdecf9723bee25" category="list-text">*Relatórios de capacidade visíveis para o host*</block>
+  <block id="ac6d1e17d25eaeb65d82b152dfdb57bf" category="paragraph">A Workload Factory recomenda ativar os relatórios de capacidade visíveis ao host para fornecer melhor visibilidade do uso de storage no nível do volume.</block>
+  <block id="47d22e8e629e843266ec7435ff742bbb" category="list-text">*Tipo de sistema operacional (SO)*</block>
+  <block id="5247b145ee65edc273dfc76802aa954d" category="paragraph">A Workload Factory recomenda garantir que o valor do tipo de sistema operacional (SO) do LUN ONTAP em ONTAP corresponda ao esquema de particionamento do sistema operacional para obter o alinhamento de E/S. Uma configuração incorreta pode reduzir o desempenho.</block>
+  <block id="6297d4b1adbdb3df46577f46811017d6" category="list-text">*gerenciamento de espaço do dispositivo de bloco*</block>
+  <block id="0b3d1dbc35ccab38207b2110ee154a08" category="paragraph">A Workload Factory recomenda configurar as definições de espaço em bloco para LUNs usados por instâncias de host de banco de dados para evitar falhas de gravação e melhorar a eficiência de espaço no FSx para ONTAP. Essa configuração se aplica à combinação recomendada de definições para volumes com thin provisioning: reserva de espaço, alocação de espaço e reserva fracionária.</block>
+  <block id="03d17de0352cae761e78b42715347870" category="list-text">*thin provisioning*</block>
+  <block id="a276a4d3d1bb6ff49ba0c75013f6c037" category="paragraph">A Workload Factory recomenda configurar thin provisioning para volumes FSx for ONTAP que hospedam instâncias de banco de dados. Essa abordagem permite armazenar mais dados lógicos do que os fisicamente disponíveis.</block>
+  <block id="01fd10a8e7ac161e328da4eaf6292046" category="list-text">*Tierização de dados frios*</block>
+  <block id="a5005a71aac05b88dbddcbb021b30d0a" category="paragraph">Habilite o armazenamento em camadas de dados frios para reduzir a utilização da camada de armazenamento SSD. O Workload Factory recomenda aplicar uma política de armazenamento em camadas a cada volume focado em storage. Para volumes de banco de dados, vamos recomendar habilitar o armazenamento em camadas de dados frios quando apropriado. O FSx for ONTAP verifica continuamente os dados em busca de dados frios e os move para a camada do pool de capacidade sem interrupção.</block>
+  <block id="1642a3ac22d754ea2e3215648c2ca8a7" category="list-text">*Eficiências de storage*</block>
+  <block id="4839729f2857a14e606b9472d85de0c1" category="list-text">*Expiração do backup*</block>
+  <block id="2d6228f6728e6cfbec7d7d819f3dc6bd" category="paragraph">A Workload Factory recomenda excluir quaisquer backups criados manualmente para volumes que foram excluídos, bem como quaisquer backups com mais de duas semanas. Esses backups não expiram automaticamente, podem aumentar os custos e adicionar complexidade se você não precisar mais deles para SLA ou recuperação.</block>
+  <block id="1404f94ec501f39118a91965272f695e" category="list-text">*Expiração do Snapshot*</block>
+  <block id="78820863b97d15c8f341065e658e9150" category="paragraph">A Workload Factory recomenda excluir snapshots antigos ou criados manualmente que você não precisa mais. Removê-los pode reduzir custos e a desordem, especialmente se não forem necessários para seu SLA ou para suas necessidades de recuperação.</block>
+  <block id="8611faa768b220ecb3795c6fda54fdaa" category="list-text">*Capacidade SSD superdimensionada*</block>
+  <block id="5d6d944edf403daafeea5a5aeb5e3f87" category="paragraph">Uma camada de SSD com capacidade superdimensionada adiciona custos desnecessários. A Workload Factory recomenda reduzir a capacidade da camada de SSD, mantendo um buffer de espaço livre de 20%. Uma operação de redução leva de algumas horas a vários dias, e outras operações do sistema de arquivos não são suportadas durante esse período.</block>
+  <block id="8722112d28d6eea0aff9478fb61c5de7" category="section-title">Eficiência de desempenho</block>
+  <block id="62d0d3849cddbcf3cccae74f05719854" category="paragraph">A eficiência de desempenho ajuda você a garantir que seus recursos de storage sejam usados de forma eficaz e que as cargas de trabalho tenham desempenho ideal.</block>
+  <block id="fbb48f4d1a3f9488b40b10d1cb8a50bd" category="list-text">*FlexGroup volumes reequilíbrio*</block>
+  <block id="a1ff290ebc3ad774d64f34c9530729c0" category="paragraph">A Workload Factory recomenda o rebalanceamento dos seus volumes FlexGroup para melhorar a eficiência. Após a expansão horizontal, a capacidade e a atividade da carga de trabalho podem ficar desiguais no volume.</block>
+  <block id="ed1fc69039bbd36676c2e04fb15f5d02" category="list-text">*FlexVol volumes reequilibrados*</block>
+  <block id="d594538bbec3297430ed8c995b262222" category="paragraph">A Workload Factory recomenda o rebalanceamento dos seus volumes FlexVol para melhorar a eficiência. Após a expansão horizontal, a capacidade e a atividade da carga de trabalho podem ficar desiguais entre os volumes.</block>
+  <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">O Workload Factory analisa diariamente suas cargas de trabalho em execução em implantações de storage de nuvem compatíveis. A análise fornece status bem arquitetado, insights e recomendações.</block>
+  <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">Após a conclusão da análise diária, as configurações aparecem como "otimizadas" ou "não otimizadas" no painel Well-architected da implantação. Você encontrará problemas de configuração por categoria e uma lista de problemas de configuração e recomendações. Você pode revisar as recomendações para os problemas de configuração. Alguns problemas podem ser corrigidos automaticamente pelo Workload Factory, enquanto outros exigem intervenção manual. Nesse caso, o Workload Factory fornece instruções detalhadas para ajudar você a implementar as alterações recomendadas.</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">Você pode descartar a análise de configurações que não se aplicam aos seus ambientes. Isso evita alertas desnecessários e resultados de otimização imprecisos. Ao descartar uma análise de configuração específica, Workload Factory não inclui a configuração na pontuação total de otimização.</block>
+  <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">O Workload Factory aplica as melhores práticas a grandes ambientes de storage, banco de dados e VMware, combinando avaliação contínua com insights de recomendações e remediação. As correções automatizadas aplicadas no NetApp Console reduzem erros humanos, garantem gerenciamento uniforme e preservam o desempenho e a confiabilidade em toda a sua infraestrutura de cargas de trabalho.</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Nomes de configuração atualizados para FSx para ONTAP no painel de controle bem projetado</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">O painel bem arquitetado no NetApp Console agora apresenta nomes de configuração de storage atualizados para o FSx for ONTAP, para melhorar a clareza e a consistência.</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no dashboard bem arquitetado.</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Nome da configuração antiga</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Novo nome de configuração</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">Agendar backups de volumes</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">Backups de volume</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">Limite de capacidade do SSD</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">Espaço livre de capacidade do SSD</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">Limite de capacidade de arquivo</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">Espaço livre na capacidade de arquivos</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">Confiabilidade dos dados de retenção a longo prazo</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">Rótulos de política de replicação</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">Snapshots locais programados</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Política do Snapshot</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">Exclua backups desnecessários</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">Expiração do backup</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">Excluir Snapshots desnecessários</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Expiração do Snapshot</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">Capacidade subutilizada de SSD</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">Capacidade SSD superdimensionada</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">Dispositivos de bloco inativos</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">Dispositivos de bloco inativos (LUN)</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">Otimize o TCO ao hierarquizar dados frios</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">Hierarquização de dados frios</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">Relatório de capacidade lógica de volume</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">Relatório de capacidade visível para o host</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroup reequilíbrio de volumes</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">Reequilibrar volumes FlexGroup</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol volumes reequilíbrio</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">Reequilibrar volumes FlexVol</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">Modo de gravação do relacionamento de cache</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache modo de escrita</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">Otimizar o tamanho do volume de cache</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache tamanho da réplica</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">Acesso não autorizado ao volume</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">Acesso não autorizado ao volume iSCSI</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI desativado</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">Proteção contra ransomware (ARP/AI)</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Corrija, descarte e reative configurações para Cloud Volumes ONTAP no Microsoft Azure</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">O painel de controle bem estruturado no NetApp Console agora permite que você corrija recomendações de configuração para seus sistemas Cloud Volumes ONTAP.</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">Você também pode descartar uma ou mais configurações da análise de arquitetura bem estruturada. Isso permite ignorar configurações específicas que não se aplicam ao seu ambiente.</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">Se desejar incluir posteriormente uma configuração descartada, você pode reativá-la no painel de controle bem arquitetado. Isso restaura a configuração à análise e permite que você receba recomendações e correções para ela.</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">Aprenda sobre administração de IA</block>
+  <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">Se o administrador da sua conta desativou os recursos de IA, você verá uma mensagem e não poderá criar regras personalizadas. Entre em contato com seu administrador ou <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>.</block>
+  <block id="54b091dc0d26574680b715ea59512839" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::well-architected-workloads.adoc[]</block>
+  <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">A capacidade da camada de armazenamento SSD não deve exceder 80% de utilização. Isso pode afetar as operações de leitura e gravação de dados na camada de armazenamento do seu pool de capacidade e impactar a taxa de transferência do seu sistema. Quando a capacidade se esgota, os volumes de dados tornam-se somente leitura. Os serviços que tentam gravar novos dados também falham.</block>
+  <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">Recomendamos que a capacidade do volume não exceda 80% de utilização. Isso pode afetar as operações de leitura e gravação de dados em seu aplicativo. O aumento da capacidade do volume pode ser manual ou automático, utilizando o recurso volume com crescimento automático.</block>
+  <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">Para um desempenho ideal, recomendamos o modo de gravação do FlexCache que melhor se adapta à sua carga de trabalho. O modo write-around oferece melhor desempenho para cargas de trabalho com muitas leituras e arquivos pequenos, enquanto o modo write-back oferece melhor desempenho para cargas de trabalho com muitas gravações e arquivos grandes.</block>
+  <block id="7cba8fc6d012368d0bb1868a9da3aebb" category="paragraph">Recomendamos ativar o volume com crescimento automático e a limpeza em volumes de cache para manter o tamanho ideal e concentrar o cache nos dados acessados com frequência (hot) para eficiência máxima.</block>
+  <block id="aafa79fe1c7925cadee2f2931c5a90a6" category="paragraph">Um nível de capacidade SSD superdimensionado adiciona custos desnecessários. Recomendamos reduzir a capacidade do nível SSD, mantendo um buffer de espaço livre de 20%. Uma operação de redução leva de algumas horas a vários dias, e outras operações do sistema de arquivos ficam indisponíveis durante esse período.</block>
+  <block id="038dede88376955fc6f5dc23c8915a6f" category="paragraph">Habilite o armazenamento em camadas de dados inativos para mover dados inativos da camada de armazenamento SSD para um storage de menor custo. Recomendamos aplicar uma política de armazenamento em camadas a cada volume. O Azure Blob Storage serve como camada de capacidade para dados inativos.</block>
+  <block id="8a4fd5d300e707a9269f6215138076a2" category="paragraph"><block ref="8a4fd5d300e707a9269f6215138076a2" category="inline-link-macro-rx"></block></block>
+  <block id="3b2bdc5e09bea40bfecc86e787cc29c3" category="paragraph">Você pode corrigir problemas de configuração para um sistema Cloud Volumes ONTAP ou para volumes selecionados em um sistema de arquivos. Você pode selecionar uma ou mais configurações para corrigir.</block>
+  <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">O processo de correção pode causar indisponibilidade de instâncias ou interrupções de serviço. Analise cuidadosamente cada recomendação antes de corrigir um problema de configuração.</block>
+  <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">Analise o resumo e as ações que aparecem na caixa de diálogo para saber o que acontece se você corrigir o problema. Algumas operações podem causar indisponibilidade da instância ou interrupções de serviço.</block>
+  <block id="4a98f536eaad8a4f8fba5780c2425562" category="paragraph">Interrompa a análise de configuração de um sistema Cloud Volumes ONTAP ou de volumes selecionados. Você pode reiniciar a análise quando necessário.</block>
+  <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">Reative a análise de configuração descartada para um sistema Cloud Volumes ONTAP a qualquer momento. Você pode selecionar uma ou mais configurações para reativar.</block>
+  <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">O sistema reativa a análise de configuração. Uma nova análise ocorre diariamente.</block>
+  <block id="ff0fee542e14fa22892513a7e8b95e5c" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::fsx-configurations.adoc[]</block>
+  <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">Saiba mais sobre como gerenciar recursos de IA</block>
+  <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">Se o administrador da sua conta desativou os recursos de IA, o Construtor de Regras não estará disponível e você não poderá criar regras personalizadas. <block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>.</block>
+  <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">Se a verificação falhou para alguns itens, leia a mensagem de erro para ver o motivo. As razões mais comuns são problemas de conexão, permissões ausentes ou um link que não foi configurado.</block>
+  <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">Os agentes Link e Console estão configurados para todos os sistemas de arquivos no escopo.</block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 de agosto de 2026</block>
 </blocks>

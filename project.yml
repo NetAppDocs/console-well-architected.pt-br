@@ -13,10 +13,12 @@ settings:
   langs: pt-br,us-en,de-de,es-es,fr-fr,it-it,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Comece agora
+  - title: Notas de lançamento
     entries:
     - title: O que há de novo
       url: "/whats-new.html"
+  - title: Comece agora
+    entries:
     - title: Saiba mais sobre o painel de controle bem projetado
       url: "/learn-well-architected-dashboard.html"
   - title: Produtos suportados

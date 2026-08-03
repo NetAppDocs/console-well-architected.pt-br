@@ -52,5 +52,111 @@ Opcionalmente, selecione image:button_download.png["Uma captura de tela do ícon
 . Analise a recomendação.
 
 
-.O que vem a seguir
-Corrija problemas de configuração para manter seus sistemas funcionando com desempenho ideal.
+
+
+[[fix-a-configuration-issue]]
+== Corrigir um problema de configuração
+
+Você pode corrigir problemas de configuração para um sistema Cloud Volumes ONTAP ou para volumes selecionados em um sistema de arquivos. Você pode selecionar uma ou mais configurações para corrigir.
+
+O processo de correção pode causar indisponibilidade de instâncias ou interrupções de serviço. Analise cuidadosamente cada recomendação antes de corrigir um problema de configuração.
+
+.Passos
+. Faça login no link:https://console.netapp.com/home["NetApp Console"^].
+. No menu NetApp Console, selecione *Workloads* e depois *Well-architected*.
+. No painel de controle Well-architected, selecione *Visualizar* para qualquer configuração.
++
+Certifique-se de revisar a recomendação cuidadosamente. A recomendação explica as melhores práticas e possíveis armadilhas de configurações não otimizadas.
+
+. Selecione para *Corrigir*.
++
+Quando *Visualizar e corrigir* for uma opção, selecione os volumes afetados para corrigir.
+
+. Analise o resumo e as ações que aparecem na caixa de diálogo para saber o que acontece se você corrigir o problema. Algumas operações podem causar indisponibilidade da instância ou interrupções de serviço.
+. Selecione *Continuar* para corrigir o problema de configuração.
+
+
+.Resultado
+O Workload Factory inicia o processo para corrigir o problema. Selecione o menu de configurações da conta e, em seguida, selecione *Tracker* para visualizar o status da operação.
+
+
+
+[[dismiss-a-configuration-analysis]]
+== Descartar uma análise de configuração
+
+Interrompa a análise de configuração de um sistema Cloud Volumes ONTAP ou de volumes selecionados. Você pode reiniciar a análise quando necessário.
+
+[role="tabbed-block"]
+====
+.Descartar uma análise de configuração para um sistema de arquivos
+--
+.Passos
+. Faça login no link:https://console.netapp.com/home["NetApp Console"^].
+. No menu NetApp Console, selecione *Workloads* e depois *Well-architected*.
+. No painel de controle Well-architected, selecione *Visualizar* para qualquer configuração.
+. Em Configurações, identifique a configuração que não se aplica ao seu ambiente e selecione *Dismiss*.
+. Na caixa de diálogo Dispensar configuração, selecione *Dispensar* para interromper a análise de configuração.
+
+
+--
+.Descartar uma análise de configuração para um volume
+--
+.Passos
+. Faça login no link:https://console.netapp.com/home["NetApp Console"^].
+. No menu NetApp Console, selecione *Workloads* e depois *Well-architected*.
+. No painel de controle Well-architected, selecione *Visualizar* para qualquer configuração.
+. Em Configurações, identifique a configuração a descartar para os volumes selecionados e, em seguida, selecione *Exibir e corrigir*.
+. Identifique os volumes a serem descartados da análise de configuração.
++
+** Para um volume: selecione o menu de ações e depois selecione *Dispensar volume*.
+** Para vários volumes: selecione os volumes e, em seguida, selecione *Ignorar* ao lado de Bulk action.
+
+
+. Selecione *Ignorar* para interromper a análise da configuração.
+. Na caixa de diálogo Dispensar volumes, selecione *Dispensar* para confirmar.
+
+
+--
+====
+.Resultado
+A análise de configuração é interrompida para o sistema de arquivos ou volumes selecionados.
+
+Você pode reativar a análise a qualquer momento.
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== Reative uma análise de configuração descartada
+
+Reative a análise de configuração descartada para um sistema Cloud Volumes ONTAP a qualquer momento. Você pode selecionar uma ou mais configurações para reativar.
+
+[role="tabbed-block"]
+====
+.Reative uma análise de configuração para um sistema de arquivos
+--
+.Passos
+. Faça login no link:https://console.netapp.com/home["NetApp Console"^].
+. No menu NetApp Console, selecione *Workloads* e depois *Well-architected*.
+. Selecione *Dismissed configurations*.
+. Identifique a configuração que você deseja reativar e selecione *Reativar*.
+
+
+--
+.Reative uma análise de configuração para um volume
+--
+.Passos
+. Faça login no link:https://console.netapp.com/home["NetApp Console"^].
+. No menu NetApp Console, selecione *Workloads* e depois *Well-architected*.
+. Selecione *Dismissed configurations*.
+. Identifique o(s) volume(s) para reativar a partir da análise de configuração.
++
+** Para um volume: selecione o menu de ações e então selecione *Reativar volume*.
+** Para vários volumes: selecione os volumes e, em seguida, selecione *Reativar* ao lado de Bulk action.
+
+
+
+
+--
+====
+.Resultado
+O sistema reativa a análise de configuração. Uma nova análise ocorre diariamente.
