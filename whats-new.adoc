@@ -20,6 +20,92 @@ Descubra as novidades do painel de controle bem estruturado no NetApp Console.
 
 
 
+[[fsx-for-ontap-support-in-the-well-architected-dashboard-in-netapp-console]]
+=== Suporte a FSx for ONTAP no painel bem arquitetado no NetApp Console
+
+O painel de controle bem estruturado no NetApp Console está disponível para Amazon FSx for NetApp ONTAP.
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Saiba mais sobre a análise de configuração do Amazon FSx for NetApp ONTAP"]
+
+
+
+
+[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
+=== Nomes de configuração atualizados para FSx para ONTAP no painel de controle bem projetado
+
+O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage para FSx for ONTAP.
+
+A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no dashboard bem arquitetado.
+
+[cols="1,1"]
+|===
+| Nome da configuração antiga | Novo nome de configuração 
+
+
+| Agendar backups de volumes | Backups de volume 
+
+
+| Limite de capacidade do SSD | Espaço livre de capacidade do SSD 
+
+
+| Limite de capacidade de arquivo | Espaço livre na capacidade de arquivos 
+
+
+| Confiabilidade dos dados de retenção a longo prazo | Rótulos de política de replicação 
+
+
+| Snapshots locais programados | Política do Snapshot 
+
+
+| Exclua backups desnecessários | Expiração do backup 
+
+
+| Excluir Snapshots desnecessários | Expiração do Snapshot 
+
+
+| Capacidade subutilizada de SSD | Capacidade SSD superdimensionada 
+
+
+| Dispositivos de bloco inativos | Dispositivos de bloco inativos (LUN) 
+
+
+| Otimize o TCO ao hierarquizar dados frios | Hierarquização de dados frios 
+
+
+| Relatório de capacidade lógica de volume | Relatório de capacidade visível para o host 
+
+
+| FlexGroup reequilíbrio de volumes | Reequilibrar volumes FlexGroup 
+
+
+| FlexVol volumes reequilíbrio | Reequilibrar volumes FlexVol 
+
+
+| Modo de gravação do relacionamento de cache | FlexCache modo de escrita 
+
+
+| Otimizar o tamanho do volume de cache | FlexCache tamanho da réplica 
+
+
+| Acesso não autorizado ao volume | Acesso não autorizado ao volume iSCSI 
+
+
+| ARP/AI desativado | Proteção contra ransomware (ARP/AI) 
+|===
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== Problemas bem arquitetados exibidos na página de Sistemas da NetApp Console
+
+As notificações para problemas de arquitetura bem definida estão disponíveis para o Cloud Volumes ONTAP no Microsoft Azure na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas Cloud Volumes ONTAP no Azure e a navegar até o painel de arquitetura bem definida de cargas de trabalho a partir da notificação.
+
+
+
+[[10-august-2026]]
+== 10 de agosto de 2026
+
+
+
 [[google-cloud-netapp-volumes-support-in-the-well-architected-dashboard]]
 === Suporte para o Google Cloud NetApp Volumes no painel bem arquitetado
 
