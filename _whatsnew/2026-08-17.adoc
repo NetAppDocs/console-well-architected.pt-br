@@ -9,15 +9,14 @@
 
 O painel de controle bem estruturado no NetApp Console está disponível para Amazon FSx for NetApp ONTAP.
 
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Saiba mais sobre a análise de configuração do Amazon FSx for NetApp ONTAP"]
+link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Saiba mais sobre a análise de configuração do Amazon FSx for NetApp ONTAP"]
 
 
 
+[[updated-configuration-names-in-the-well-architected-dashboard]]
+=== Nomes de configuração atualizados no painel de controle bem arquitetado
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== Nomes de configuração atualizados para FSx para ONTAP no painel de controle bem projetado
-
-O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage para FSx for ONTAP.
+O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage.
 
 A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no dashboard bem arquitetado.
 
