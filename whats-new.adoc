@@ -34,70 +34,6 @@ Saiba mais sobre link:https://docs.netapp.com/us-en/console-well-architected/gcn
 
 
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== Nomes de configuração atualizados para FSx para ONTAP no painel de controle bem projetado
-
-O painel bem arquitetado no NetApp Console agora apresenta nomes de configuração de storage atualizados para o FSx for ONTAP, para melhorar a clareza e a consistência.
-
-A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no dashboard bem arquitetado.
-
-[cols="1,1"]
-|===
-| Nome da configuração antiga | Novo nome de configuração 
-
-
-| Agendar backups de volumes | Backups de volume 
-
-
-| Limite de capacidade do SSD | Espaço livre de capacidade do SSD 
-
-
-| Limite de capacidade de arquivo | Espaço livre na capacidade de arquivos 
-
-
-| Confiabilidade dos dados de retenção a longo prazo | Rótulos de política de replicação 
-
-
-| Snapshots locais programados | Política do Snapshot 
-
-
-| Exclua backups desnecessários | Expiração do backup 
-
-
-| Excluir Snapshots desnecessários | Expiração do Snapshot 
-
-
-| Capacidade subutilizada de SSD | Capacidade SSD superdimensionada 
-
-
-| Dispositivos de bloco inativos | Dispositivos de bloco inativos (LUN) 
-
-
-| Otimize o TCO ao hierarquizar dados frios | Hierarquização de dados frios 
-
-
-| Relatório de capacidade lógica de volume | Relatório de capacidade visível para o host 
-
-
-| FlexGroup reequilíbrio de volumes | Reequilibrar volumes FlexGroup 
-
-
-| FlexVol volumes reequilíbrio | Reequilibrar volumes FlexVol 
-
-
-| Modo de gravação do relacionamento de cache | FlexCache modo de escrita 
-
-
-| Otimizar o tamanho do volume de cache | FlexCache tamanho da réplica 
-
-
-| Acesso não autorizado ao volume | Acesso não autorizado ao volume iSCSI 
-
-
-| ARP/AI desativado | Proteção contra ransomware (ARP/AI) 
-|===
-
-
 [[fix-dismiss-and-reactivate-configurations-for-cloud-volumes-ontap-in-microsoft-azure]]
 === Corrija, descarte e reative configurações para Cloud Volumes ONTAP no Microsoft Azure
 
@@ -123,11 +59,7 @@ O painel de controle bem-arquitetado no NetApp Console oferece uma visão unific
 
 Saiba mais sobre o link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard bem arquitetado"].
 
-O painel de controle bem estruturado do Console está disponível para os seguintes sistemas de storage:
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP no Microsoft Azure"]
-
+O painel de controle bem estruturado no Console está disponível para link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["O Cloud Volumes ONTAP no Microsoft Azure."]
 
 
 

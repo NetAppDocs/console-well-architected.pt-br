@@ -4,7 +4,6 @@
   <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">O painel de controle bem-arquitetado no NetApp Console oferece uma visão unificada dos seus sistemas de storage e configurações em todas as contas e regiões. O painel fornece insights e recomendações para ajudar você a alcançar excelência operacional. Você pode visualizar o status bem-arquitetado das suas configurações, problemas de configuração organizados pelos pilares da estrutura bem-arquitetada para o tipo de storage que você usa e uma lista de problemas de configuração e recomendações.</block>
   <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">dashboard bem arquitetado</block>
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">Saiba mais sobre o <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>.</block>
-  <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">O painel de controle bem estruturado do Console está disponível para os seguintes sistemas de storage:</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Cloud Volumes ONTAP no Microsoft Azure</block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Crie suas próprias regras personalizadas</block>
@@ -482,8 +481,6 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">Análise de configuração</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">Melhore as configurações do sistema de arquivos</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">Melhore as configurações do sistema</block>
-  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
-  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">Você também pode descartar a análise de configurações de armazenamento específicas que não se aplicam ao seu ambiente de storage para evitar alertas desnecessários e resultados de otimização imprecisos.</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">Instale um agente do Console</block>
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> ou <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block> para a análise mais completa dos recursos do seu sistema de arquivos.</block>
@@ -568,7 +565,6 @@
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">Após a conclusão da análise diária, as configurações aparecem como "otimizadas" ou "não otimizadas" no painel Well-architected da implantação. Você encontrará problemas de configuração por categoria e uma lista de problemas de configuração e recomendações. Você pode revisar as recomendações para os problemas de configuração. Alguns problemas podem ser corrigidos automaticamente pelo Workload Factory, enquanto outros exigem intervenção manual. Nesse caso, o Workload Factory fornece instruções detalhadas para ajudar você a implementar as alterações recomendadas.</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">O Workload Factory aplica as melhores práticas a grandes ambientes de storage, banco de dados e VMware, combinando avaliação contínua com insights de recomendações e remediação. As correções automatizadas aplicadas no NetApp Console reduzem erros humanos, garantem gerenciamento uniforme e preservam o desempenho e a confiabilidade em toda a sua infraestrutura de cargas de trabalho.</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Nomes de configuração atualizados para FSx para ONTAP no painel de controle bem projetado</block>
-  <block id="032088baae45e30e8391672094b24e52" category="paragraph">O painel bem arquitetado no NetApp Console agora apresenta nomes de configuração de storage atualizados para o FSx for ONTAP, para melhorar a clareza e a consistência.</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no dashboard bem arquitetado.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Nome da configuração antiga</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Novo nome de configuração</block>
@@ -668,4 +664,13 @@
   <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">Reative uma análise de configuração para um pool de storage</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17 de agosto de 2026</block>
   <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">Melhore as configurações do pool de storage</block>
+  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">O Cloud Volumes ONTAP no Microsoft Azure.</block>
+  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">O painel de controle bem estruturado no Console está disponível para <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
+  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">Suporte a FSx for ONTAP no painel bem arquitetado no NetApp Console</block>
+  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">O painel de controle bem estruturado no NetApp Console está disponível para Amazon FSx for NetApp ONTAP.</block>
+  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Saiba mais sobre a análise de configuração do Amazon FSx for NetApp ONTAP</block>
+  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
+  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage para FSx for ONTAP.</block>
+  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Problemas bem arquitetados exibidos na página de Sistemas da NetApp Console</block>
+  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">As notificações para problemas de arquitetura bem definida estão disponíveis para o Cloud Volumes ONTAP no Microsoft Azure na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas Cloud Volumes ONTAP no Azure e a navegar até o painel de arquitetura bem definida de cargas de trabalho a partir da notificação.</block>
 </blocks>
