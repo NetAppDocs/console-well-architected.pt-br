@@ -11,7 +11,7 @@ summary: NetApp Console analisa regularmente as configurações do sistema de st
 
 
 [role="lead"]
-O painel de controle bem estruturado no NetApp Console analisa regularmente as configurações do sistema de storage para identificar se há problemas de configuração. Quando problemas são encontrados, o painel mostra quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem o desempenho máximo, a eficiência de custos e a conformidade com as melhores práticas.
+O Workload Factory analisa regularmente as configurações do sistema de storage para identificar se há algum problema de configuração. Quando problemas são encontrados, o painel well-architected no NetApp Console exibe quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.
 
 Principais funcionalidades incluem:
 

@@ -11,7 +11,7 @@ summary: O painel de controle bem arquitetado analisa regularmente as configura�
 
 
 [role="lead"]
-O painel bem arquitetado no NetApp Console analisa regularmente as configurações do sistema de storage para determinar se há algum problema de configuração com seus sistemas de arquivos Amazon FSx for NetApp ONTAP. Quando problemas são encontrados, o painel mostra para você quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.
+O Workload Factory analisa regularmente as configurações do sistema de storage para determinar se há algum problema de configuração com seus Amazon FSx for NetApp ONTAP sistemas de arquivos. Quando problemas são encontrados, o painel bem arquitetado exibe quais são os problemas e recomendações sobre o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.
 
 Principais funcionalidades incluem:
 

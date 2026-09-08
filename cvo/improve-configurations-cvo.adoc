@@ -11,7 +11,9 @@ summary: O painel de controle bem estruturado analisa as configurações do Clou
 
 
 [role="lead"]
-Usando insights e recomendações da análise de configuração, aproveite a NetApp para implementar as melhores práticas para seus sistemas Cloud Volumes ONTAP executados no armazenamento Microsoft Azure. Você pode revisar facilmente o status bem arquitetado, conhecer os problemas das suas configurações e obter recomendações para melhorar a arquitetura de quaisquer sistemas que não estejam otimizados para confiabilidade, segurança, eficiência, desempenho e custo.
+NetApp ajuda você a implementar as melhores práticas para os seus sistemas Cloud Volumes ONTAP em execução no armazenamento do Microsoft Azure, usando insights e recomendações de análise de configuração. Você pode revisar o status de arquitetura adequada, identificar problemas em suas configurações e obter recomendações para aprimorar a arquitetura de sistemas que não estão otimizados para confiabilidade, segurança, eficiência, desempenho e custo.
+
+Você também pode descartar a análise de configurações de armazenamento específicas que não se aplicam ao seu ambiente de storage para evitar alertas desnecessários e resultados de otimização imprecisos.
 
 link:configuration-analysis-cvo.html["Saiba mais sobre a análise de configuração e o status de arquitetura bem projetada."]
 
@@ -20,11 +22,11 @@ link:configuration-analysis-cvo.html["Saiba mais sobre a análise de configuraç
 [[about-this-task]]
 == Sobre esta tarefa
 
-O painel de controle bem estruturado analisa diariamente as configurações de implantação do sistema Cloud Volumes ONTAP no Microsoft Azure. A análise diária fornece o status bem estruturado, insights e recomendações.
+O Workload Factory analisa as configurações do sistema Cloud Volumes ONTAP no Microsoft Azure todos os dias. A análise diária fornece o status bem arquitetado, insights e recomendações. Você pode corrigir automaticamente problemas de configuração para atender às melhores práticas.
 
-A conectividade do agente Link ou Console permite que o painel bem arquitetado no NetApp Console realize uma varredura completa dos seus sistemas Cloud Volumes ONTAP em busca de problemas de desempenho, proteção de dados e configurações. Isso garante que você receba informações e recomendações precisas para otimizar seus sistemas Cloud Volumes ONTAP.
+A conectividade do agente Link ou Console permite que o Workload Factory realize uma varredura completa dos seus Cloud Volumes ONTAP em busca de problemas de desempenho, proteção de dados e configurações. Isso garante que você receba informações e recomendações precisas para otimizar seus Cloud Volumes ONTAP.
 
-Os requisitos de configuração de armazenamento variam. Você pode ignorar a análise de configurações específicas que não se aplicam ao seu ambiente de storage. Isso ajuda você a evitar alertas desnecessários e resultados de otimização imprecisos.
+Os requisitos de configuração de storage variam. Você pode dispensar a análise de configurações específicas que não se aplicam ao seu ambiente de storage. Dispensar configurações que não se aplicam ajuda você a evitar alertas desnecessários e resultados de otimização imprecisos.
 
 
 
@@ -74,10 +76,7 @@ O processo de correção pode causar indisponibilidade de instâncias ou interru
 +
 Certifique-se de revisar a recomendação cuidadosamente. A recomendação explica as melhores práticas e possíveis armadilhas de configurações não otimizadas.
 
-. Selecione para *Corrigir*.
-+
-Quando *Visualizar e corrigir* for uma opção, selecione os volumes afetados para corrigir.
-
+. Selecione *Corrigir* para um único volume ou *Visualizar e corrigir* para vários volumes. Para vários volumes, selecione os volumes afetados para corrigir.
 . Analise o resumo e as ações que aparecem na caixa de diálogo para saber o que acontece se você corrigir o problema. Algumas operações podem causar indisponibilidade da instância ou interrupções de serviço.
 . Selecione *Continuar* para corrigir o problema de configuração.
 

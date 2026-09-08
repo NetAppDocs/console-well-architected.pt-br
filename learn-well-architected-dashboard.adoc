@@ -11,25 +11,25 @@ summary: O painel de controle bem estruturado no NetApp Console analisa as confi
 
 
 [role="lead"]
-O painel de controle bem arquitetado no NetApp Console ajuda você a manter e operar configurações confiáveis, seguras, eficientes e econômicas que estão alinhadas com as estruturas bem arquitetadas para o tipo de storage que você utiliza. O painel oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar e priorizar riscos e suporta regras personalizadas para requisitos específicos. Verificações automáticas diárias das configurações do seu sistema de storage fornecem insights e recomendações para ajudar você a otimizar seus ambientes de storage.
+O NetApp Workload Factory ajuda você a manter e operar configurações confiáveis, seguras, eficientes e econômicas, alinhadas com as estruturas bem arquitetadas para o tipo de storage que você utiliza. O painel bem arquitetado no NetApp Console oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar e priorizar riscos e suporta regras personalizadas para requisitos específicos. As verificações automáticas diárias das configurações do seu sistema de storage fornecem insights e recomendações para ajudar você a otimizar seus ambientes de storage.
 
 
 
 [[how-it-works]]
 == Como funciona
 
-O painel de controle bem arquitetado analisa suas configurações diariamente. A análise fornece o status bem arquitetado, insights e recomendações.
+O Workload Factory analisa suas configurações diariamente. A análise fornece um status bem arquitetado, insights e recomendações para ajudar você a otimizar seus ambientes de storage.
 
-Após a conclusão da análise diária, as configurações aparecem como "otimizadas" ou "não otimizadas" no painel de controle do well-architected. Você encontrará a pontuação total de otimização, problemas de configuração por categoria e uma lista de problemas de configuração e recomendações. Você pode revisar as recomendações para problemas de configuração. Alguns problemas podem ser corrigidos automaticamente pelo painel de controle do well-architected, enquanto outros exigem intervenção manual. Nesse caso, o painel de controle do well-architected fornece instruções detalhadas para ajudar você a implementar as alterações recomendadas.
+Após a conclusão da análise diária, as configurações aparecem como "otimizadas" ou "não otimizadas" no painel de arquitetura bem arquitetada. Você encontrará problemas de configuração por categoria da estrutura (confiabilidade, segurança, excelência operacional, otimização de custos e eficiência de desempenho) e uma lista de problemas de configuração e recomendações. O Workload Factory pode corrigir alguns problemas automaticamente, enquanto outros exigem intervenção manual. Nesse caso, a recomendação fornece instruções detalhadas para ajudar você a implementar as alterações.
 
-Você pode descartar a análise de configurações que não se aplicam aos seus ambientes. Isso evita alertas desnecessários e resultados de otimização imprecisos. Ao descartar uma análise de configuração específica, o painel well-architected não inclui a configuração na pontuação total de otimização.
+Você pode descartar a análise de configurações que não se aplicam aos seus ambientes. Descartar configurações evita alertas desnecessários e resultados de otimização imprecisos.
 
 
 
 [[why-it-matters]]
 == Por que isso importa
 
-O painel de controle bem projetado no NetApp Console aplica as melhores práticas a grandes ambientes de storage, banco de dados e VMware, combinando avaliação contínua com insights de recomendações e remediação. A remediação automatizada aplicada no painel de controle bem projetado reduz erros humanos, garante gerenciamento uniforme e preserva o desempenho e a confiabilidade em toda a sua infraestrutura de sistemas.
+O Workload Factory aplica as melhores práticas a grandes ambientes de storage, banco de dados e VMware, combinando avaliação contínua com insights de recomendações e remediação. A remediação automatizada reduz erros humanos, garante gerenciamento uniforme e preserva o desempenho e a confiabilidade em toda a sua infraestrutura de sistemas.
 
 
 
