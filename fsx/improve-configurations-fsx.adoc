@@ -34,7 +34,7 @@ Os requisitos de configuração de storage variam. Você pode dispensar a análi
 == Antes de começar
 
 * Você deve link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["conceder permissões de _operações e remediação_"^] na sua conta da AWS.
-* Você deve link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["instale um agente do NetApp Console"^] ou link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Conecte-se a um sistema de arquivos do Amazon FSx for NetApp ONTAP usando um link"] para obter a análise mais completa dos recursos do seu sistema de arquivos.
+* Você deve link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["instale um agente do NetApp Console"^] ou link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Conecte-se a um sistema de arquivos do Amazon FSx for NetApp ONTAP usando um link"] para obter a análise mais completa dos recursos do seu sistema de arquivos.
 
 
 
