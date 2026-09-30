@@ -14,7 +14,7 @@ summary: Visualize, ative, desative e exclua regras arquitetônicas personalizad
 
 
 [role="lead"]
-O catálogo de regras é um local centralizado para gerenciar todas as suas regras personalizadas. Você pode visualizar os detalhes de cada regra, verificar seus resultados e ativá-la ou desativá-la.
+O catálogo de regras é um local centralizado para gerenciar todas as suas regras personalizadas. Você pode revisar os detalhes das regras, verificar os resultados e controlar se as regras são executadas de acordo com uma programação.
 
 
 
@@ -97,8 +97,13 @@ Os testes são auditados e constam no histórico de avaliação da regra.
 
 
 
-[[understand-execution-status]]
-== Entenda o status de execução
+[[understand-rule-and-execution-status]]
+== Compreender o status das regras e da execução
+
+O catálogo de regras mostra o status da regra e o status da execução.
+
+Status da regra:: *Rascunho* significa que a regra foi salva, mas ainda não foi agendada. *Em andamento* significa que a regra está sendo criada ou validada. *Agendada* significa que a regra está ativa e é executada conforme o agendamento. *Pausada* significa que a regra permanece no catálogo, mas não é executada. *Falha ao criar* significa que a regra não foi concluída e precisa ser atualizada no chat antes de poder ser salva.
+
 
 O status de execução mostra se uma regra foi executada com sucesso.
 

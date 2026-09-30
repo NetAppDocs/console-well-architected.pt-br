@@ -11,7 +11,7 @@ summary: NetApp Console analisa regularmente as configurações do sistema de st
 
 
 [role="lead"]
-O Workload Factory analisa regularmente as configurações do sistema de storage para identificar se há algum problema de configuração. Quando problemas são encontrados, o painel well-architected no NetApp Console exibe quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.
+O painel bem estruturado no NetApp Console verifica regularmente as configurações do seu sistema de storage em busca de possíveis problemas. Se ele encontrar algum problema, mostrará quais são e explicará como corrigi-los para que seus sistemas de storage tenham bom desempenho, controlem os custos e sigam as melhores práticas nos modos padrão e ONTAP para ambientes do Flex Unified Google Cloud NetApp Volumes.
 
 Principais funcionalidades incluem:
 
@@ -40,9 +40,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Ap
 [[best-practices-and-recommendations-for-storage-workloads]]
 == Melhores práticas e recomendações para cargas de trabalho de storage
 
-O Workload Factory avalia as configurações de armazenamento em relação às melhores práticas de armazenamento e do ONTAP, bem como ao Google Cloud Well-Architected Framework. A avaliação também recomenda melhorias.
+O Workload Factory avalia as configurações de storage em relação às melhores práticas de storage e do ONTAP, bem como à estrutura Google Cloud Well-Architected Framework. A avaliação também recomenda melhorias para os recursos do Google Cloud NetApp Volumes no modo padrão e os recursos do Flex Unified descobertos por meio do endpoint de proxy da API do ONTAP.
 
-A análise bem arquitetada categoriza as configurações nos seguintes pilares da estrutura: _confiabilidade_ e _excelência operacional_.
+A análise bem arquitetada categoriza as configurações nos seguintes pilares da estrutura: _confiabilidade_ e _excelência operacional_. Os resultados da avaliação podem incluir um valor de modo de _Default-mode_ ou _ONTAP-mode_.
 
 
 

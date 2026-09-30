@@ -47,7 +47,6 @@
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">A IA pode pedir que você escolha entre várias opções para entender melhor o que você precisa. Responda a cada pergunta e selecione *Continuar* ou selecione *Pular* para passar pelas perguntas opcionais.</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">Após responder a todas as perguntas, selecione *Continuar* para criar sua regra.</block>
   <block id="66178252f08edeeeeda7bfc5ebf5227b" category="section-title">Teste a regra</block>
-  <block id="0362b2cfbfe0db96dc282024dbd64841" category="paragraph">Antes de agendar a regra, execute um teste único para ver quais recursos ele afetará.</block>
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">Selecione *Validar regra*.</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">O sistema avalia todos os recursos dentro do escopo com base na sua lógica de regras.</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">Revise os resultados da validação:</block>
@@ -60,10 +59,8 @@
   <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*Erros de conectividade*: o link ou o agente podem não estar configurados para determinados sistemas de arquivos</block>
   <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*Erros de permissão do ONTAP*: o usuário visualizador pode não ter acesso a determinados recursos</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">Salvar ou agendar a regra</block>
-  <block id="8c7715e49e638258c4536fec9aff1f6e" category="paragraph">Após testar sua regra, você pode salvá-la como rascunho ou configurá-la para ser executada regularmente.</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">Faça um dos seguintes procedimentos:</block>
   <block id="8c080127194fcaf624649c3bab095baa" category="list-text">Para agendar avaliações regulares, defina a frequência de avaliação (mínimo de 1 hora, padrão de 24 horas) e selecione *Schedule*. A regra é ativada e executada na programação definida.</block>
-  <block id="988a89425a3c56162fa9fed77217603a" category="list-text">Para salvar sem agendar, selecione *Salvar como rascunho*. A regra é salva, mas não é avaliada até que você a agende.</block>
   <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">Para descartar a regra, selecione *Descartar* para cancelar a criação da regra e começar novamente.</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">Resultado</block>
   <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">Sua regra personalizada foi criada e está listada no catálogo de regras. Se você definir um agendamento, ela verificará seus recursos FSx for ONTAP na frequência especificada.</block>
@@ -296,15 +293,9 @@
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">Ciclo de vida da regra</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">As regras personalizadas progridem pelos seguintes estados:</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">Rascunho</block>
-  <block id="7edfa45546f16ea439072c85ed022ded" category="list-text">A regra está sendo criada. Nenhuma avaliação está ocorrendo.</block>
-  <block id="a42abfa6ff4f9bd0c4d682a01cec4455" category="list-text">Execução simulada</block>
-  <block id="df76323d34c18ca92f80a38fd9da8d33" category="list-text">Avaliação única para prever quais recursos seriam afetados. Usada para validação antes do agendamento.</block>
   <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">Agendado (Ativado)</block>
-  <block id="12401e69cfee8012efd57dfa07ccda49" category="list-text">A regra está ativa e é executada conforme a programação definida.</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">Desabilitado</block>
-  <block id="9bfd2521cfb729dd925cf45079242073" category="list-text">A regra está pausada, mas não excluída. Pode ser reativada.</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">Excluído</block>
-  <block id="82ec5f7cc11035152c40e48c55c05b0d" category="list-text">A regra foi removida permanentemente.</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">Exemplos de regras personalizadas</block>
   <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">Os exemplos a seguir ilustram regras personalizadas comuns:</block>
   <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*Proteção do volume de produção*</block>
@@ -349,7 +340,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de notificação fornecem informações sobre direitos autorais e licenças de terceiro usados no software NetApp.</block>
   <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">Visualize, ative, desative e exclua regras arquitetônicas personalizadas do catálogo de regras.</block>
-  <block id="0a7f0abf34857702447ced5ee72899a5" category="paragraph">O catálogo de regras é um local centralizado para gerenciar todas as suas regras personalizadas. Você pode visualizar os detalhes de cada regra, verificar seus resultados e ativá-la ou desativá-la.</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">Veja o catálogo de regras</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">O catálogo de regras mostra todas as regras que você criou, o status delas, o agendamento e os resultados mais recentes.</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">Selecione o menu <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block> e, em seguida, selecione *Rule builder*.</block>
@@ -377,7 +367,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">O sistema avalia todos os recursos em escopo com base na lógica da regra.</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">Analise os resultados para verificar o status atual de conformidade.</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">Os testes são auditados e constam no histórico de avaliação da regra.</block>
-  <block id="3d3e89f1bbb9f2c8f8d5468d18a725ec" category="section-title">Entenda o status de execução</block>
   <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">O status de execução mostra se uma regra foi executada com sucesso.</block>
   <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">Bem-sucedido</block>
   <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">Todos os recursos relevantes foram verificados e nenhum erro foi encontrado.</block>
@@ -620,8 +609,6 @@
   <block id="01b307f0335162114b66a6190044c275" category="list-text">Conceda permissões de _visualização, planejamento e análise_ na sua conta do Google Cloud.</block>
   <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">Aprenda como conceder permissões a uma conta do Google Cloud</block>
   <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
-  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">O Workload Factory avalia as configurações de armazenamento em relação às melhores práticas de armazenamento e do ONTAP, bem como ao Google Cloud Well-Architected Framework. A avaliação também recomenda melhorias.</block>
-  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">A análise bem arquitetada categoriza as configurações nos seguintes pilares da estrutura: _confiabilidade_ e _excelência operacional_.</block>
   <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">O Workload Factory recomenda manter o uso da camada SSD em 80% ou menos. Algumas cargas de trabalho podem exigir capacidade adicional e metas de utilização mais baixas. À medida que o uso excede a capacidade recomendada, o risco de lentidão no desempenho e problemas de serviço aumenta, especialmente se a capacidade não for expandida a tempo. Você pode dispensar isso para um ou mais pools de storage e reativar depois, se necessário.</block>
   <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">A Workload Factory recomenda manter o uso do volume abaixo de 80% para reduzir o risco de falta de espaço. Se um volume crescer mais rápido do que o esperado, você pode precisar expandi-lo rapidamente. Isso pode aumentar o risco de impacto em aplicativos, especialmente com crescimento repentino ou em picos. Esse risco é menor quando você usa thin provisioning e gerenciamento de capacidade automático. Você pode dispensar esse aviso para um ou mais volumes e reativá-lo depois, se necessário.</block>
   <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">Implemente configurações bem arquitetadas do Google Cloud NetApp Volumes</block>
@@ -681,17 +668,6 @@
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">Conecte-se a um sistema de arquivos do Amazon FSx for NetApp ONTAP usando um link</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">Selecione *Corrigir* para um único volume ou *Visualizar e corrigir* para vários volumes. Se você selecionar *Visualizar e corrigir*, selecione os volumes afetados para corrigir.</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">Identifique os volumes a serem reativados a partir da análise de configuração.</block>
-  <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">O Workload Factory analisa regularmente as configurações do sistema de storage para identificar se há algum problema de configuração. Quando problemas são encontrados, o painel well-architected no NetApp Console exibe quais são os problemas e explica o que precisa ser alterado para garantir que seus sistemas de storage alcancem desempenho máximo, eficiência de custos e conformidade com as melhores práticas.</block>
-  <block id="5d53284fb4850094d575eb9c0096fe4a" category="paragraph">NetApp ajuda você a implementar as melhores práticas para seus pools de storage do Google Cloud NetApp Volumes usando insights e recomendações de análise de configuração. Você pode revisar o status de arquitetura bem definida, identificar problemas em suas configurações e receber recomendações para aprimorar a arquitetura de quaisquer pools de storage que não estejam otimizados para confiabilidade, segurança, eficiência, desempenho e custo.</block>
-  <block id="fee7ee6c35710723ba710f440950ec24" category="paragraph">NetApp analisa as configurações dos seus pools de storage do Google Cloud NetApp Volumes todos os dias. A análise diária fornece o status de arquitetura bem definida, além de insights e recomendações para ajudar você a entender problemas de configuração, garantindo que seus pools de storage sigam as melhores práticas.</block>
-  <block id="58106dc77a145acb5b9f958b8c944c32" category="paragraph">A conectividade do agente Link ou Console permite que o Workload Factory realize uma verificação completa dos seus sistemas de arquivos em busca de problemas de desempenho, proteção de dados e configurações. Como resultado, você recebe insights precisos e recomendações para otimizar os pools de storage do Google Cloud NetApp Volumes.</block>
-  <block id="0368421628656695faa02aba1e7fafc6" category="paragraph">Após a conclusão da análise diária, o painel de controle de arquitetura bem estruturada exibe o número total de recursos bem estruturados, o número de recursos em estado crítico e o número de recursos em estado de alerta. As configurações são categorizadas pelos pilares da estrutura bem arquitetada: confiabilidade, excelência operacional, otimização de custos, eficiência de desempenho e segurança. O painel de controle também inclui uma tabela que lista todas as configurações. Para cada configuração, a tabela mostra:</block>
-  <block id="1ea595e897db3a6c2ebf632b09f893a7" category="list-text">O status de bem-arquitetado</block>
-  <block id="88fc175a314d22757d9562f6ca85f39c" category="list-text">A gravidade</block>
-  <block id="80b1ec0e89bd7572cc1f804e7b6589d5" category="list-text">A categoria</block>
-  <block id="8c4ac5176555925ce14fd3b1be3c8cb1" category="list-text">O tipo de recurso (volume ou pool de storage)</block>
-  <block id="90965760f6e212d3c1adb1ae943da7b4" category="list-text">Recursos afetados</block>
-  <block id="3b8bdf195417f71fd13dc074d454c9d1" category="list-text">A opção de visualizar a recomendação quando a configuração não estiver otimizada</block>
   <block id="d1eb4860a9f8c5e03980d78b93e3c145" category="paragraph">Opcionalmente, selecione <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block> para baixar um arquivo CSV com as recomendações para todas as configurações.</block>
   <block id="969bb8c9e1608f3c46000b160dbf8c50" category="paragraph">O NetApp Workload Factory ajuda você a manter e operar configurações confiáveis, seguras, eficientes e econômicas, alinhadas com as estruturas bem arquitetadas para o tipo de storage que você utiliza. O painel bem arquitetado no NetApp Console oferece uma visão unificada entre contas e regiões, ajuda as equipes a identificar e priorizar riscos e suporta regras personalizadas para requisitos específicos. As verificações automáticas diárias das configurações do seu sistema de storage fornecem insights e recomendações para ajudar você a otimizar seus ambientes de storage.</block>
   <block id="a081c06e09e507c759e7f4cce85691e2" category="paragraph">O Workload Factory analisa suas configurações diariamente. A análise fornece um status bem arquitetado, insights e recomendações para ajudar você a otimizar seus ambientes de storage.</block>
@@ -701,4 +677,41 @@
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Certifique-se de que o agente do Console associado ao Cloud Volumes ONTAP tenha acesso aos seguintes endpoints:</block>
   <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> ou <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> para configurar a conectividade entre o sistema de arquivos e o NetApp Console.</block>
   <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">Você deve <block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block> ou <block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block> para obter a análise mais completa dos recursos do seu sistema de arquivos.</block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">Descubra os recursos do Flex Unified no Workload Factory</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">O Workload Factory agora consegue encontrar os pools de storage e volumes do Google Cloud NetApp Volumes Flex Unified nos modos padrão e ONTAP por meio do endpoint de proxy da API ONTAP. Esses recursos aparecem no inventário e são incluídos nas avaliações e recomendações de arquitetura adequada.</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">Saiba mais sobre a análise de configuração para o Google Cloud NetApp Volumes</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">Acesse os sistemas Flex Unified a partir da tela do NetApp Console Canvas</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">Agora você pode selecionar *Enter System* para sistemas Google Cloud NetApp Volumes Flex Unified detectados na tela do NetApp Console. Isso abre a página Recursos do sistema selecionado para que você possa visualizar os pools de storage e volumes associados usando o mesmo fluxo de trabalho disponível para sistemas no modo padrão.</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Avaliações bem arquitetadas para recursos do Flex Unified</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">O painel bem arquitetado agora avalia os pools de storage e volumes do Google Cloud NetApp Volumes Flex Unified quanto à capacidade disponível de SSD, à capacidade disponível de volume e à cobertura da política de snapshot. Os resultados aparecem na experiência bem arquitetada do Google Cloud NetApp Volumes e identificam recursos no modo Default ou no modo ONTAP.</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">As notificações para problemas de arquitetura bem projetada estão disponíveis para o Google Cloud NetApp Volumes na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas do Google Cloud NetApp Volumes e a navegar até o painel de arquitetura bem projetada de cargas de trabalho a partir da notificação.</block>
+  <block id="677aeb7441cfb06ed7138c57338cfd53" category="paragraph">Antes de salvar ou agendar a regra, execute um teste para verificar quais recursos ela afetará.</block>
+  <block id="cdac1db1869db85a5ed349854c63c6bf" category="paragraph">Após validar a sua regra, você pode salvá-la como rascunho ou configurá-la para ser executada regularmente.</block>
+  <block id="9c85906f54c1b8a93d6470f07300ddfa" category="list-text">Para salvar após a validação sem agendamento, selecione *Salvar como rascunho*. A regra é salva, mas não é avaliada até que você a agende.</block>
+  <block id="e65512a782af7ef5675975930ca3bd4f" category="paragraph">O painel bem estruturado no NetApp Console verifica regularmente as configurações do seu sistema de storage em busca de possíveis problemas. Se ele encontrar algum problema, mostrará quais são e explicará como corrigi-los para que seus sistemas de storage tenham bom desempenho, controlem os custos e sigam as melhores práticas nos modos padrão e ONTAP para ambientes do Flex Unified Google Cloud NetApp Volumes.</block>
+  <block id="2801dcf3181a6f2a2f56bb01459e50a4" category="paragraph">O Workload Factory avalia as configurações de storage em relação às melhores práticas de storage e do ONTAP, bem como à estrutura Google Cloud Well-Architected Framework. A avaliação também recomenda melhorias para os recursos do Google Cloud NetApp Volumes no modo padrão e os recursos do Flex Unified descobertos por meio do endpoint de proxy da API do ONTAP.</block>
+  <block id="8a5f3966b3513f7e2233e10a7facba12" category="paragraph">A análise bem arquitetada categoriza as configurações nos seguintes pilares da estrutura: _confiabilidade_ e _excelência operacional_. Os resultados da avaliação podem incluir um valor de modo de _Default-mode_ ou _ONTAP-mode_.</block>
+  <block id="4eb5fd24694777ef00d310821aaa6543" category="paragraph">Usando insights e recomendações da análise de configuração, aproveite a NetApp para implementar as melhores práticas para seus pools de storage e volumes do Google Cloud NetApp Volumes executados no storage do Google Cloud. Você pode revisar facilmente o status da arquitetura bem estruturada, saber mais sobre problemas nas suas configurações e receber recomendações para melhorar a arquitetura dos recursos que não estão otimizados para confiabilidade, segurança, desempenho e custo.</block>
+  <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Os deployments de pool de storage e volume do Google Cloud NetApp Volumes no Google Cloud são analisados diariamente. A análise diária fornece o status de arquitetura adequada, além de insights e recomendações para ajudar você a entender problemas de configuração para que seus recursos atendam às melhores práticas.</block>
+  <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">Após a conclusão da análise diária, o painel exibe o número total de recursos bem arquitetados, o número de recursos em estado crítico e o número de recursos em estado de alerta. As configurações são categorizadas pelos pilares da estrutura bem arquitetada: confiabilidade, excelência operacional, otimização de custos, eficiência de desempenho e segurança. O painel também inclui uma tabela que lista todas as configurações, o status bem arquitetado dessas configurações, a gravidade, a categoria, o tipo de recurso (volume ou pool de storage), os recursos impactados e a opção de visualizar a recomendação quando a configuração não estiver otimizada. Isso inclui o Default-mode e o ONTAP-mode.</block>
+  <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">Para ambientes Flex Unified, as recomendações podem incluir espaço livre de capacidade SSD para pools de storage, espaço livre de capacidade de volume para volumes e cobertura de política de snapshot para volumes.</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">Gravidade</block>
+  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">O nível de importância da regra, como aviso ou crítico.</block>
+  <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">Em andamento</block>
+  <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">Criando ou verificando regras.</block>
+  <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">Falha ao criar</block>
+  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">Não foi possível criar a regra.</block>
+  <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">Salvo, mas ainda não agendado.</block>
+  <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">Rascunho validado</block>
+  <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">A validação foi aprovada e pode ser salva ou agendada.</block>
+  <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">Ativo e em execução conforme o cronograma definido.</block>
+  <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">Pausado, mas não excluído. Pode ser reativado.</block>
+  <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">Removido permanentemente.</block>
+  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">O catálogo de regras é um local centralizado para gerenciar todas as suas regras personalizadas. Você pode revisar os detalhes das regras, verificar os resultados e controlar se as regras são executadas de acordo com uma programação.</block>
+  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">Compreender o status das regras e da execução</block>
+  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">O catálogo de regras mostra o status da regra e o status da execução.</block>
+  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">Status da regra</block>
+  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*Rascunho* significa que a regra foi salva, mas ainda não foi agendada. *Em andamento* significa que a regra está sendo criada ou validada. *Agendada* significa que a regra está ativa e é executada conforme o agendamento. *Pausada* significa que a regra permanece no catálogo, mas não é executada. *Falha ao criar* significa que a regra não foi concluída e precisa ser atualizada no chat antes de poder ser salva.</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de setembro de 2026</block>
 </blocks>

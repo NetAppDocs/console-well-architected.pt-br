@@ -11,7 +11,7 @@ summary: O Workload Factory analisa as configurações do Google Cloud NetApp Vo
 
 
 [role="lead"]
-NetApp ajuda você a implementar as melhores práticas para seus pools de storage do Google Cloud NetApp Volumes usando insights e recomendações de análise de configuração. Você pode revisar o status de arquitetura bem definida, identificar problemas em suas configurações e receber recomendações para aprimorar a arquitetura de quaisquer pools de storage que não estejam otimizados para confiabilidade, segurança, eficiência, desempenho e custo.
+Usando insights e recomendações da análise de configuração, aproveite a NetApp para implementar as melhores práticas para seus pools de storage e volumes do Google Cloud NetApp Volumes executados no storage do Google Cloud. Você pode revisar facilmente o status da arquitetura bem estruturada, saber mais sobre problemas nas suas configurações e receber recomendações para melhorar a arquitetura dos recursos que não estão otimizados para confiabilidade, segurança, desempenho e custo.
 
 link:configuration-analysis-gcnv.html["Saiba mais sobre a análise de configuração e o status de arquitetura bem projetada."]
 
@@ -20,21 +20,9 @@ link:configuration-analysis-gcnv.html["Saiba mais sobre a análise de configura�
 [[about-this-task]]
 == Sobre esta tarefa
 
-NetApp analisa as configurações dos seus pools de storage do Google Cloud NetApp Volumes todos os dias. A análise diária fornece o status de arquitetura bem definida, além de insights e recomendações para ajudar você a entender problemas de configuração, garantindo que seus pools de storage sigam as melhores práticas.
+Os deployments de pool de storage e volume do Google Cloud NetApp Volumes no Google Cloud são analisados diariamente. A análise diária fornece o status de arquitetura adequada, além de insights e recomendações para ajudar você a entender problemas de configuração para que seus recursos atendam às melhores práticas.
 
-A conectividade do agente Link ou Console permite que o Workload Factory realize uma verificação completa dos seus sistemas de arquivos em busca de problemas de desempenho, proteção de dados e configurações. Como resultado, você recebe insights precisos e recomendações para otimizar os pools de storage do Google Cloud NetApp Volumes.
-
-Os requisitos de configuração de storage variam. Você pode dispensar a análise de configurações específicas que não se aplicam ao seu ambiente de storage. Dispensar configurações que não se aplicam ajuda você a evitar alertas desnecessários e resultados de otimização imprecisos.
-
-Após a conclusão da análise diária, o painel de controle de arquitetura bem estruturada exibe o número total de recursos bem estruturados, o número de recursos em estado crítico e o número de recursos em estado de alerta. As configurações são categorizadas pelos pilares da estrutura bem arquitetada: confiabilidade, excelência operacional, otimização de custos, eficiência de desempenho e segurança. O painel de controle também inclui uma tabela que lista todas as configurações. Para cada configuração, a tabela mostra:
-
-* O status de bem-arquitetado
-* A gravidade
-* A categoria
-* O tipo de recurso (volume ou pool de storage)
-* Recursos afetados
-* A opção de visualizar a recomendação quando a configuração não estiver otimizada
-
+Após a conclusão da análise diária, o painel exibe o número total de recursos bem arquitetados, o número de recursos em estado crítico e o número de recursos em estado de alerta. As configurações são categorizadas pelos pilares da estrutura bem arquitetada: confiabilidade, excelência operacional, otimização de custos, eficiência de desempenho e segurança. O painel também inclui uma tabela que lista todas as configurações, o status bem arquitetado dessas configurações, a gravidade, a categoria, o tipo de recurso (volume ou pool de storage), os recursos impactados e a opção de visualizar a recomendação quando a configuração não estiver otimizada. Isso inclui o Default-mode e o ONTAP-mode.
 
 
 
@@ -50,6 +38,8 @@ Após a conclusão da análise diária, o painel de controle de arquitetura bem 
 == Veja recomendações para problemas de configuração
 
 Você pode visualizar as recomendações para problemas de configuração após a conclusão da análise diária. As recomendações explicam as melhores práticas e os riscos potenciais de configurações não otimizadas. Você também pode baixar um arquivo CSV das recomendações.
+
+Para ambientes Flex Unified, as recomendações podem incluir espaço livre de capacidade SSD para pools de storage, espaço livre de capacidade de volume para volumes e cobertura de política de snapshot para volumes.
 
 .Passos
 . Faça login no link:https://console.netapp.com/home["NetApp Console"^].

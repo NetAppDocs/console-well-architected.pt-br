@@ -78,6 +78,7 @@ Nome da regra:: Um nome definido pelo usuário para a regra.
 Descrição:: Seu motivo para explicar por que essa regra é importante para sua organização.
 Tipo de recurso:: O recurso FSx a ser avaliado (sistema de arquivos, volume ou cache). Atualmente, apenas um tipo de recurso por regra.
 Agendador:: Com que frequência a regra é avaliada (mínimo 1 hora, padrão 24 horas).
+Gravidade:: O nível de importância da regra, como aviso ou crítico.
 Lógica condicional:: Os critérios específicos a serem verificados.
 Escopo da avaliação:: Quais recursos são avaliados (todos os recursos aplicáveis no escopo).
 Lógica de remediação:: Orientação manual para lidar com recursos não conformes.
@@ -90,11 +91,13 @@ Lógica de remediação:: Orientação manual para lidar com recursos não confo
 
 As regras personalizadas progridem pelos seguintes estados:
 
-Rascunho:: A regra está sendo criada. Nenhuma avaliação está ocorrendo.
-Execução simulada:: Avaliação única para prever quais recursos seriam afetados. Usada para validação antes do agendamento.
-Agendado (Ativado):: A regra está ativa e é executada conforme a programação definida.
-Desabilitado:: A regra está pausada, mas não excluída. Pode ser reativada.
-Excluído:: A regra foi removida permanentemente.
+Em andamento:: Criando ou verificando regras.
+Falha ao criar:: Não foi possível criar a regra.
+Rascunho:: Salvo, mas ainda não agendado.
+Rascunho validado:: A validação foi aprovada e pode ser salva ou agendada.
+Agendado (Ativado):: Ativo e em execução conforme o cronograma definido.
+Desabilitado:: Pausado, mas não excluído. Pode ser reativado.
+Excluído:: Removido permanentemente.
 
 
 

@@ -85,7 +85,7 @@ A IA pode pedir que você escolha entre várias opções para entender melhor o 
 [[test-the-rule]]
 == Teste a regra
 
-Antes de agendar a regra, execute um teste único para ver quais recursos ele afetará.
+Antes de salvar ou agendar a regra, execute um teste para verificar quais recursos ela afetará.
 
 .Passos
 . Selecione *Validar regra*.
@@ -114,13 +114,13 @@ O sistema avalia todos os recursos dentro do escopo com base na sua lógica de r
 [[save-or-schedule-the-rule]]
 == Salvar ou agendar a regra
 
-Após testar sua regra, você pode salvá-la como rascunho ou configurá-la para ser executada regularmente.
+Após validar a sua regra, você pode salvá-la como rascunho ou configurá-la para ser executada regularmente.
 
 .Passos
 . Faça um dos seguintes procedimentos:
 +
 ** Para agendar avaliações regulares, defina a frequência de avaliação (mínimo de 1 hora, padrão de 24 horas) e selecione *Schedule*. A regra é ativada e executada na programação definida.
-** Para salvar sem agendar, selecione *Salvar como rascunho*. A regra é salva, mas não é avaliada até que você a agende.
+** Para salvar após a validação sem agendamento, selecione *Salvar como rascunho*. A regra é salva, mas não é avaliada até que você a agende.
 ** Para descartar a regra, selecione *Descartar* para cancelar a criação da regra e começar novamente.
 
 
