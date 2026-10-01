@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">O catálogo de regras mostra o status da regra e o status da execução.</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">Status da regra</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*Rascunho* significa que a regra foi salva, mas ainda não foi agendada. *Em andamento* significa que a regra está sendo criada ou validada. *Agendada* significa que a regra está ativa e é executada conforme o agendamento. *Pausada* significa que a regra permanece no catálogo, mas não é executada. *Falha ao criar* significa que a regra não foi concluída e precisa ser atualizada no chat antes de poder ser salva.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 de setembro de 2026</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 de setembro de 2026</block>
 </blocks>
